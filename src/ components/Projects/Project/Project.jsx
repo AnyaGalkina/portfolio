@@ -1,21 +1,19 @@
 import React from 'react';
 import style from "./Project.module.css";
 
-const Project = (props) => {
 
+
+
+const Project = (props) => {
 
     return (
         <div className={style.projectContainer}>
             <div>
-                <div className={style.imgContainer}
-                     style={{backgroundImage: `url(${props.src})`,  backgroundPosition: 'center',
-                    backgroundSize: 'cover',}}
-                >
-                    {/*<img src={props.src} alt={"project img"} className={style.img}/>*/}
-                    <button
-                        // onClick={() => {props.onClick}}
-                        className={style.button}>Go to project
-                    </button>
+                <div className={style.imgContainer} style={{backgroundImage: `url(${props.src})`}}>
+                    <a
+                        href={props.projectLink}
+                        className={style.link}>Go to project
+                    </a>
                 </div>
             </div>
             <h3>{props.title}</h3>

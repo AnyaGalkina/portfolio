@@ -1,24 +1,49 @@
-.skillsBlock {
+.contactsBlock {
     height: 100vh;
     background-color: #c4dea2;
 }
 
-.skillsContainer {
+.contactContainer {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .title {
     background-color: #b7b1b1;
 }
 
-.skills {
+.formContainer {
     border: 1px solid;
-    width: 100%;
+    width: 300px;
     display: flex;
-    /*flex-direction: row;*/
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    flex-direction: column;
 }
 
+.contactDetailsContainer {
+    /*border: 1px solid;*/
+    width: 280px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    cursor: default;
+    margin-left: 50px;
+}
+
+
+.input {
+    cursor: default;
+    width: 280px;
+}
+
+.textarea {
+    height: 150px;
+    cursor: default;
+    width: 280px;
+}

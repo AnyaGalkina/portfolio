@@ -1,7 +1,38 @@
-.header {
-    height: 80px;
-    background-color: #95b3e7;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.mainBlock {
+    height: 100vh;
+    background-color: pink;
+    /*display: flex;*/
 }
+
+.text {
+    width: 316px;
+    background-color: #b7b1b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.link {
+    width: 100px;
+    height: 30px;
+    background-color: #a093c4;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: #210564;
+    color: white;
+}
+
+.photo {
+    width: 280px;
+    height: 400px;
+    background-color: #b7b1b1;
+}
+
+

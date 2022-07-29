@@ -1,0 +1,44 @@
+.projectContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgContainer {
+    width: 300px;
+    height: 200px;
+    /*background-color: #333131;*/
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgContainer:hover {
+    background-size: 120% 120%
+}
+
+
+.link {
+    width: 130px;
+    text-decoration: none;
+    background-color: white;
+    /*background-color: #30307c;*/
+    border: 4px solid #0f0f28;
+    /*color: white;*/
+    color: #0f0f28;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.progectDescription {
+    padding: 20px;
+    box-sizing: border-box;
+}

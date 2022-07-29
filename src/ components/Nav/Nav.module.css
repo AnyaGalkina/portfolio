@@ -1,4 +1,13 @@
-.header {
-    height: 80px;
-    background-color: #95b3e7;
+.nav {
+    /*border: 1px solid;*/
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    /*justify-content: flex-end;*/
+    /*display: flex;*/
+}
+
+.link {
+    text-decoration: none;
 }
