@@ -1,0 +1,45 @@
+.title {
+    /*background-color: #b7b1b1;*/
+    /*margin-bottom: 30px;*/
+    /*font-weight: 300;*/
+    /*text-transform: capitalize;*/
+    /*font-size: 20px;*/
+    /*line-height: 1.2;*/
+    /*position: relative;*/
+
+
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 700;
+    /*color: #fff;*/
+    /*display: inline-block;*/
+    /*padding-bottom: 20px;*/
+    position: relative;
+    margin: 10px 0 0 0;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    /*margin: 5px 0;*/
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: #5898c3;
+    /*background-color: #59c378;;*/
+    /*margin-top: 10px;*/
+    bottom:-10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+@media screen and (max-width: 575px){
+
+    .title{
+        font-size: 22px;
+        line-height: 40px;
+    }
+}
