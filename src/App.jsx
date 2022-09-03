@@ -10,6 +10,7 @@ import todoImg from "./images/flat-lay-notebook-with-list-desk.jpg";
 // import todoImg from "./images/top-view-notebook-with-checklist-desk.jpg";
 import socialMediaImg from "./images/6976388_4575.jpg";
 import financeImg from "./images/close-up-education-economy-objects.jpg";
+import botImg from "./images/8252.jpg"
 // import GitHubIcon from '@mui/icons-material/GitHub';
 // import InstagramIcon from '@mui/icons-material/Instagram';
 // import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -55,6 +56,13 @@ function App() {
             projectDescription: 'One of my specialties is taking aklcmasknmc One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics',
             imgSrc: financeImg,
             projectLink: "https://AnyaGalkina.github.io/finance_tracker"
+        },
+        {
+            projectId: v1(),
+            projectName: "Telegram Bot",
+            projectDescription: 'One of my specialties is taking aklcmasknmc One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics',
+            imgSrc: botImg,
+            projectLink: ""
         },
     ]
 
