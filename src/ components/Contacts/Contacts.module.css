@@ -1,6 +1,5 @@
 .contactsBlock {
     height: 100vh;
-    background-color: #c4dea2;
 }
 
 .contactContainer {
@@ -10,40 +9,43 @@
 }
 
 .detailsContainer {
+    /*max-width: 1000px;*/
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: baseline;
 }
 
-.title {
-    background-color: #b7b1b1;
-}
-
 .formContainer {
-    border: 1px solid;
-    width: 300px;
+    /*border: 1px solid;*/
+    max-width: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.formContainer input, .formContainer textarea {
+    width: 280px;
+    cursor: default;
+}
+
 .contactDetailsContainer {
     /*border: 1px solid;*/
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
     cursor: default;
     margin-left: 50px;
 }
 
-
-.input {
-    cursor: default;
-    width: 280px;
+.textarea {
+    min-height: 150px;
 }
 
-.textarea {
-    height: 150px;
-    cursor: default;
-    width: 280px;
+@media screen  and (max-width: 750px) {
+    .detailsContainer {
+        flex-wrap: wrap;
+    }
 }

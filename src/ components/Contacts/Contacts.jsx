@@ -1,6 +1,8 @@
 import React from 'react';
 import style from "./Contacts.module.css";
 import styleContainer from "../../common/styles/Container.module.css";
+import Title from "../Title/Title";
+import styleLink from "../../common/styles/Link.module.css";
 
 
 const Contacts = () => {
@@ -8,16 +10,18 @@ const Contacts = () => {
         <div className={style.contactsBlock} id={"contacts"}>
 
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
-                <h2 className={style.title}>Contacts</h2>
+                <Title title={"Contacts"}/>
                 <div className={style.detailsContainer}>
                     <div className={style.formContainer}>
                         <form>
-                            <input className={style.input}/>
-                            <input className={style.input}/>
+                            <input type="text" />
+                            <input type="text" />
                             <textarea className={style.textarea}/>
-                            <button onClick={() => {
-                            }}>Send message
-                            </button>
+                            <button
+                                className={styleLink.link}
+                                type="submit"
+                                onClick={() => {}}
+                            >Send message</button>
                         </form>
                     </div>
                     <div className={style.contactDetailsContainer}>

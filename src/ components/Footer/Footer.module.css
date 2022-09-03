@@ -1,6 +1,6 @@
 .footerBlock {
     height: 40vh;
-    background-color: #f1c4be;
+    /*background-color: #f1c4be;*/
 }
 
 .footerContainer {
@@ -9,10 +9,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.title {
-    background-color: #b7b1b1;
 }
 
 .iconContainer {

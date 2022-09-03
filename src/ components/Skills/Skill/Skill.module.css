@@ -1,6 +1,6 @@
 .skill {
     width: 250px;
-    background-color: #b7b1b1;
+    background-color: #1f1f20;
     min-height: 100px;
     display: flex;
     flex-direction: column;
@@ -18,4 +18,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.description {
+    font: 400 14px/1.8 'Poppins', sans-serif;
+    margin: 15px 0;
 }

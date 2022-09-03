@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./Main.module.css";
 import styleContainer from "../../common/styles/Container.module.css";
 import portfolioPhoto from "../../images/gitPhoto.jpeg";
+import styleLink from "../../common/styles/Link.module.css";
 
 
 const Main = () => {
@@ -12,10 +13,11 @@ const Main = () => {
                     <img className={style.photo} src={portfolioPhoto} alt={"my portrait photography"}/>
                 </div>
                 <div className={style.text}>
-                    <span>Hi There</span>
+                    <span className={style.greeting}>Hello,</span>
                     <h1>I'm Anna Galkina</h1>
-                    <p>Frontend Developer</p>
-                    <a className={style.link}>Download CV</a>
+                    <h5>Frontend Developer</h5>
+                    <span>some other text Placeholder////</span>
+                    <a className={styleLink.link}>Download CV</a>
                 </div>
             </div>
         </div>

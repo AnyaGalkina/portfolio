@@ -2,13 +2,14 @@ import React from 'react';
 import Project from "./Project/Project";
 import styleContainer from "../../common/styles/Container.module.css";
 import style from "./Projects.module.css";
+import Title from "../Title/Title";
 
 
 const Projects = ({projects}) => {
     return (
         <div className={style.projectBlock} id={"projects"}>
             <div className={`${styleContainer.container} ${style.projectContainer}`}>
-                <h2 className={style.title}>My projects</h2>
+                <Title title={"My projects"}/>
                 <div className={style.projects}>
                     {projects.map(p => {
                         return (

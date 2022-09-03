@@ -1,7 +1,6 @@
 import React from 'react';
 import style from "./Project.module.css";
-
-
+import styleLink from "../../../common/styles/Link.module.css";
 
 
 const Project = (props) => {
@@ -12,12 +11,12 @@ const Project = (props) => {
                 <div className={style.imgContainer} style={{backgroundImage: `url(${props.src})`}}>
                     <a
                         href={props.projectLink}
-                        className={style.link}>Go to project
+                        className={`${styleLink.link} ${style.link}`}>Go to project
                     </a>
                 </div>
             </div>
             <h3>{props.title}</h3>
-            <span className={style.progectDescription}>{props.description}</span>
+            <span className={style.projectDescription}>{props.description}</span>
         </div>
     );
 };
