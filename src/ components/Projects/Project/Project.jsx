@@ -1,6 +1,6 @@
 import React from 'react';
-import style from "./Project.module.css";
-import styleLink from "../../../common/styles/Link.module.css";
+import style from "./Project.module.scss";
+import styleLink from "../../../common/styles/Link.module.scss";
 
 
 const Project = (props) => {

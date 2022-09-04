@@ -1,0 +1,63 @@
+@import "../../../common/styles/sass/variables";
+
+.projectContainer {
+  background-color: $bgSecondaryColor;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+
+  .imgContainer {
+    min-width: 500px;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &:hover {
+      background-size: 120% 120%
+    }
+
+    .link {
+      position: relative;
+      z-index: 1;
+    }
+
+    @media screen and (max-width: 750px) {
+      max-width: 300px;
+      min-width: 280px;
+      height: 200px;
+    }
+  }
+
+  .projectDescription {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 750px) {
+    max-width: 300px;
+  }
+}
+
+/*.imgContainer:hover::before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    background-color: black;*/
+/*    opacity: 60%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+//

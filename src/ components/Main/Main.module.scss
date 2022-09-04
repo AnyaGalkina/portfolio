@@ -1,0 +1,55 @@
+@import "../../common/styles/sass/variables.scss", "../../common/styles/sass/mixins";
+
+.mainBlock {
+  height: 100vh;
+  .photo {
+    width: 300px;
+    height: 440px;
+  }
+  .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    .greeting {
+      @include text($mainFontFamily, 700, 35px, 45px);
+      text-transform: capitalize;
+      color: $secondaryColor;
+    }
+
+    @media screen and (max-width: 575px) {
+      width: 300px;
+    }
+
+  }
+}
+
+
+/*.link {*/
+/*    width: 150px;*/
+/*    height: 40px;*/
+/*    background-color: #58c378;*/
+/*    padding: 10px;*/
+/*    border-radius: 40px;*/
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*.link:hover {*/
+/*    background-color: #009e66;*/
+/*    !*background-color: #3e8865;*!*/
+/*}*/
+
+//.photo {
+//  width: 300px;
+//  height: 440px;
+//}
+
+/*.socialMedia {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+

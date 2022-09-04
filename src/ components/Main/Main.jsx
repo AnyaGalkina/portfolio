@@ -1,8 +1,8 @@
 import React from 'react';
-import style from "./Main.module.css";
-import styleContainer from "../../common/styles/Container.module.css";
+import style from "./Main.module.scss";
+import styleContainer from "../../common/styles/Container.module.scss";
 import portfolioPhoto from "../../images/gitPhoto.jpeg";
-import styleLink from "../../common/styles/Link.module.css";
+import styleLink from "../../common/styles/Link.module.scss";
 
 
 const Main = () => {

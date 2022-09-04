@@ -1,0 +1,28 @@
+@import "../../../common/styles/sass/variables", "../../../common/styles/sass/mixins";
+
+.skill {
+  width: 250px;
+  background-color: $bgSecondaryColor;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    @include text($secondaryFontFamily, 400, 14px, 1.8);
+    margin: 15px 0;
+  }
+}

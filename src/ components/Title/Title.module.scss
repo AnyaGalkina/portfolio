@@ -1,0 +1,23 @@
+@import "../../common/styles/sass/variables", "../../common/styles/sass/mixins";
+
+.title {
+  position: relative;
+  margin: 10px 0 40px 0;
+  @include text($mainFontFamily, 700, 35px, 55px);
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: $secondaryColor;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  @media screen and (max-width: 575px) {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}

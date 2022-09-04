@@ -1,0 +1,31 @@
+@import "./common/styles/sass/variables.scss", "./common/styles/sass/mixins.scss";
+
+.App {
+  /*font-family: 'DM Sans', sans-serif;*/
+  @include text($mainFontFamily, 400, 18px, 30px);
+  background: $bgPrimaryColor;
+
+  h1 {
+    @include text($mainFontFamily, 700, 45px, 45px);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-top: 0;
+    @media screen and (max-width: 575px) {
+      font-size: 35px;
+      line-height: 35px;
+    }
+  }
+
+  h3 {
+    @include text($mainFontFamily, 700, 20px, 20px);
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  h5 {
+    @include text($mainFontFamily, 600, 22px, 39px);
+    color: #59c378;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}

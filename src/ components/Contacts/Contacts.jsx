@@ -1,14 +1,13 @@
 import React from 'react';
-import style from "./Contacts.module.css";
-import styleContainer from "../../common/styles/Container.module.css";
+import style from "./Contacts.module.scss";
+import styleContainer from "../../common/styles/Container.module.scss";
 import Title from "../Title/Title";
-import styleLink from "../../common/styles/Link.module.css";
+import styleLink from "../../common/styles/Link.module.scss";
 
 
 const Contacts = () => {
     return (
         <div className={style.contactsBlock} id={"contacts"}>
-
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
                 <Title title={"Contacts"}/>
                 <div className={style.detailsContainer}>

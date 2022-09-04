@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from "./Project/Project";
-import styleContainer from "../../common/styles/Container.module.css";
-import style from "./Projects.module.css";
+import styleContainer from "../../common/styles/Container.module.scss";
+import style from "./Projects.module.scss";
 import Title from "../Title/Title";
 
 
