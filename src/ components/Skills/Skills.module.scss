@@ -8,13 +8,9 @@
     .skills {
       width: 100%;
       display: flex;
-      /*flex-direction: row;*/
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       //align-items: start;
-      @media screen and (max-width: 750px) {
-        justify-content: center;
-      }
     }
   }
 }

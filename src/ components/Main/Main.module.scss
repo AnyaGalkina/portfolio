@@ -8,7 +8,14 @@
   .photo {
     width: 300px;
     height: 440px;
-    //margin: 0 10px;
+    @media screen and (max-width: 820px) {
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 575px) {
+      height: 350px;
+      object-fit: cover;
+      object-position: 100% 30%;
+    }
   }
 
   .text {
@@ -17,7 +24,7 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    margin: 20px;
+    margin: 30px;
 
     .greeting {
       @include text($mainFontFamily, 700, 35px, 45px);
@@ -25,27 +32,10 @@
       color: $secondaryColor;
     }
 
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 820px) {
+      margin: 20px auto;
+      align-items: center;
       width: 300px;
     }
-
-  }
-
-  .iconContainer {
-    width: 28px;
-    height: 100px;
-    position: relative;
-    margin-top: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    @media screen and (max-width: 1000px) {
-      flex-direction: row;
-      width: 100px;
-      margin: 20px 20px 0 20px;
-    }
-
   }
 }
