@@ -2,7 +2,8 @@ import React from 'react';
 import style from "./Contacts.module.scss";
 import styleContainer from "../../common/styles/Container.module.scss";
 import Title from "../Title/Title";
-import styleLink from "../../common/styles/Link.module.scss";
+import ContactInfo from "./ContactInfo/ContactInfo";
+import ContactForm from "./ContactForm/ContactForm";
 
 
 const Contacts = () => {
@@ -11,22 +12,8 @@ const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
                 <Title title={"Contacts"}/>
                 <div className={style.detailsContainer}>
-                    <div className={style.formContainer}>
-                        <form>
-                            <input type="text" />
-                            <input type="text" />
-                            <textarea className={style.textarea}/>
-                            <button
-                                className={styleLink.link}
-                                type="submit"
-                                onClick={() => {}}
-                            >Send message</button>
-                        </form>
-                    </div>
-                    <div className={style.contactDetailsContainer}>
-                        <p>Phone number: +7........</p>
-                        <p>Email:....@gmail.com</p>
-                    </div>
+                    <ContactForm/>
+                    <ContactInfo/>
                 </div>
             </div>
         </div>
