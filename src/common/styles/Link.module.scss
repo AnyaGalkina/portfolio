@@ -1,4 +1,4 @@
-@import "../styles/sass/variables";
+@import "../styles/sass/variables", "../styles/sass/mixins";
 
 .link {
   width: 130px;
@@ -11,6 +11,8 @@
   margin-top: 30px;
   text-decoration: none;
   color: $textColor;
+
+  @include text($mainFontFamily,  400, 18px, 30px);
 
   &:hover {
     background-color: #009e66;

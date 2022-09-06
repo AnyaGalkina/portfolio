@@ -11,8 +11,8 @@ const Project = (props) => {
                 <div className={style.imgContainer} style={{backgroundImage: `url(${props.src})`}}>
                     <a
                         href={props.projectLink}
-                        className={`${styleLink.link} ${style.link}`}>Go to project
-                    </a>
+                        className={`${styleLink.link} ${style.link}`}
+                    >Go to project</a>
                 </div>
             </div>
             <h3>{props.title}</h3>

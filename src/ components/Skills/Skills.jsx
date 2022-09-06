@@ -16,6 +16,7 @@ const Skills = ({skills}) => {
                             key={s.skillId} title={s.skillName}
                             description={s.skillDescription}
                             src={s.imgSrc} alt={s.alt}
+                            componentImg={s.componentImg}
                         />)}
                 </div>
             </div>

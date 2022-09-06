@@ -9,18 +9,10 @@
     flex-wrap: wrap;
 
     .iconContainer {
-      border: 1px solid black;
       width: 280px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-
-      .icon {
-        width: 60px;
-        height: 60px;
-        background-color: gray;
-        flex-wrap: wrap;
-      }
     }
 
     .copyright {

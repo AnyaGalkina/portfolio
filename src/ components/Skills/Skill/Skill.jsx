@@ -5,13 +5,9 @@ const Skill = (props) => {
 
     return (
         <div className={style.skill}>
-            <div className={style.icon}>
-                <img src={props.src} alt={props.alt}/>
-            </div>
+            <div className={style.icon}>{props.componentImg}</div>
             <div>
-                <h3>
-                    {props.title}
-                </h3>
+                <h3>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>
             </div>
         </div>
