@@ -1,7 +1,7 @@
 @import "../../../common/styles/sass/variables", "../../../common/styles/sass/mixins";
 
 .skill {
-  width: 250px;
+  width: 310px;
   background-color: $bgSecondaryColor;
   min-height: 100px;
   display: flex;
@@ -11,6 +11,7 @@
   padding: 20px;
   box-sizing: border-box;
   margin: 2px;
+  //font-family: $secondaryFontFamily;
 
   .icon {
     width: 60px;
@@ -23,7 +24,10 @@
   }
 
   .description {
-    @include text($secondaryFontFamily, 400, 14px, 1.8);
+    //@include text($secondaryFontFamily, 400, 14px, 1.8);
+    @include text($secondaryFontFamily, 400, 16px, 24px);
     margin: 15px 0;
+    padding-top: 20px;
+    color: $secondaryTextColor;
   }
 }
