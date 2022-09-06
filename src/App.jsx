@@ -6,14 +6,22 @@ import Projects from "./ components/Projects/Projects";
 import Contacts from "./ components/Contacts/Contacts";
 import {Footer} from "./ components/Footer/Footer";
 import {v1} from "uuid";
-import todoImg from "./images/flat-lay-notebook-with-list-desk.jpg";
-// import todoImg from "./images/top-view-notebook-with-checklist-desk.jpg";
-import socialMediaImg from "./images/6976388_4575.jpg";
-import financeImg from "./images/close-up-education-economy-objects.jpg";
-import botImg from "./images/8252.jpg"
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import todoImg from "./assets/images/flat-lay-notebook-with-list-desk.jpg";
+import socialMediaImg from "./assets/images/6976388_4575.jpg";
+import financeImg from "./assets/images/close-up-education-economy-objects.jpg";
+import botImg from "./assets/images/8252.jpg"
+import {FaInstagram} from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa";
+import {FaReact} from "react-icons/fa";
+import {FaSass} from "react-icons/fa";
+import {FaHtml5} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
+import {FaServer} from "react-icons/fa";
+import {FaDocker} from "react-icons/fa";
+import {SiRedux} from "react-icons/si";
+import {SiTypescript} from "react-icons/si";
+import {SiStorybook} from "react-icons/si";
+import {SiMaterialui} from "react-icons/si";
 
 function App() {
 
@@ -21,17 +29,83 @@ function App() {
         {
             skillId: v1(),
             skillName: "TypeSript",
+            componentImg: <SiTypescript size={"60"}/>,
             imgSrc: "",
             imgAlt: "TS icon",
             skillDescription: " Lorem Ipsum generators on the Internet tend to repeat first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ips"
         },
-        {skillId: v1(), skillName: "React", imgSrc: "", imgAlt: "React icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "Redux", imgSrc: "", imgAlt: "Redux icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "JavaSript", imgSrc: "", imgAlt: "JS icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "CSS", imgSrc: "", imgAlt: "CSS icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "HTML", imgSrc: "", imgAlt: "HTML icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "Storybook", imgSrc: "", imgAlt: "Storybook icon", skillDescription: "some text"},
-        {skillId: v1(), skillName: "Git", imgSrc: "", imgAlt: "Git icon", skillDescription: "some text"},
+        {
+            skillId: v1(),
+            skillName: "REST API",
+            componentImg: <FaServer size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "JS icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "React",
+            componentImg: <FaReact size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "React icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "Redux",
+            componentImg: <SiRedux size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Redux icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "SASS & CSS",
+            componentImg: <FaSass size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "CSS icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "HTML",
+            componentImg: <FaHtml5 size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "HTML icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "Storybook",
+            componentImg: <SiStorybook size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Storybook icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "MaterialUI",
+            componentImg: <SiMaterialui size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Storybook icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "Git",
+            componentImg: <FaGithub size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Git icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
+        {
+            skillId: v1(),
+            skillName: "Docker",
+            componentImg: <FaDocker size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Git icon",
+            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        },
     ];
 
 
@@ -67,29 +141,35 @@ function App() {
     ]
 
     const contacts = [
-        {id: v1(), contactName: "Git",
-            // imgSrc: GitHubIcon,
-            // imgSrc: "",
-            link: "https://github.com/AnyaGalkina"},
-        {id: v1(), contactName: "LinkedIn",
-            // imgSrc: LinkedInIcon,
-            link: ""},
-        {id: v1(), contactName: "Instagram",
-            // imgSrc: InstagramIcon,
-            link: ""},
+        {
+            id: v1(), contactName: "Git",
+            imgComponent: <FaGithub size={"30"}/>,
+            // imgComponent: <GitHubIcon/>,
+            link: "https://github.com/AnyaGalkina"
+        },
+        {
+            id: v1(), contactName: "LinkedIn",
+            imgComponent: <FaLinkedin size={"30"}/>,
+            // imgComponent: <LinkedInIcon/>,
+            link: ""
+        },
+        {
+            id: v1(), contactName: "Instagram",
+            imgComponent: <FaInstagram size={"30"}/>,
+            link: ""
+        }
     ]
 
 
     return (
         <div className="App">
             <Header/>
-            <Main/>
+            <Main contacts={contacts}/>
             <Skills skills={skills}/>
             <Projects projects={projects}/>
-            <Contacts />
+            <Contacts/>
             <Footer contacts={contacts}/>
         </div>
-
     );
 }
 
