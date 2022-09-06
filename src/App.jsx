@@ -156,19 +156,19 @@ function App() {
     const socialMedia = [
         {
             id: v1(), contactName: "Git",
-            imgComponent: <FaGithub size={"30"}/>,
+            imgComponent: <FaGithub size={"25"}/>,
             // imgComponent: <GitHubIcon/>,
             link: "https://github.com/AnyaGalkina"
         },
         {
             id: v1(), contactName: "LinkedIn",
-            imgComponent: <FaLinkedin size={"30"}/>,
+            imgComponent: <FaLinkedin size={"25"}/>,
             // imgComponent: <LinkedInIcon/>,
             link: ""
         },
         {
             id: v1(), contactName: "Instagram",
-            imgComponent: <FaInstagram size={"30"}/>,
+            imgComponent: <FaInstagram size={"25"}/>,
             link: "https://www.instagram.com/anyablackbird/"
         }
     ]
@@ -176,12 +176,12 @@ function App() {
 
     return (
         <div className="App">
-            <Header/>
-            <Main contacts={socialMedia}/>
+            <Header socialMedia={socialMedia}/>
+            <Main />
             <Skills skills={skills}/>
             <Projects projects={projects}/>
             <Contacts contacts={contacts}/>
-            <Footer contacts={socialMedia}/>
+            <Footer socialMedia={socialMedia}/>
         </div>
     );
 }

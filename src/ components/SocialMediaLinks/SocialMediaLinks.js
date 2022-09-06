@@ -1,10 +1,10 @@
 import React from 'react';
 import SocialMediaLink from "./SocialMediaLink/SocialMediaLink";
 
-const SocialMediaLinks = ({contacts}) => {
+const SocialMediaLinks = ({socialMedia}) => {
     return (
         <>
-            {contacts.map(c => {
+            {socialMedia.map(c => {
                 return (
                     <SocialMediaLink
                         imgComponent={c.imgComponent}
