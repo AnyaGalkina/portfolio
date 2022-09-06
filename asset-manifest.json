@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.625928fe.css",
-    "main.js": "/portfolio/static/js/main.f083cbbc.js",
+    "main.css": "/portfolio/static/css/main.16233129.css",
+    "main.js": "/portfolio/static/js/main.2b99fa44.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/6976388_4575.jpg": "/portfolio/static/media/6976388_4575.2651617dcbb8b87d4819.jpg",
     "static/media/flat-lay-notebook-with-list-desk.jpg": "/portfolio/static/media/flat-lay-notebook-with-list-desk.2e4be7ecbb68e0c296c9.jpg",
@@ -9,12 +9,12 @@
     "static/media/close-up-education-economy-objects.jpg": "/portfolio/static/media/close-up-education-economy-objects.086cd8a5cb72858ace9f.jpg",
     "static/media/gitPhoto.jpeg": "/portfolio/static/media/gitPhoto.dff8e5eae14779d9e86d.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.625928fe.css.map": "/portfolio/static/css/main.625928fe.css.map",
-    "main.f083cbbc.js.map": "/portfolio/static/js/main.f083cbbc.js.map",
+    "main.16233129.css.map": "/portfolio/static/css/main.16233129.css.map",
+    "main.2b99fa44.js.map": "/portfolio/static/js/main.2b99fa44.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.625928fe.css",
-    "static/js/main.f083cbbc.js"
+    "static/css/main.16233129.css",
+    "static/js/main.2b99fa44.js"
   ]
 }
