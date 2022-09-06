@@ -7,14 +7,14 @@ const Project = (props) => {
 
     return (
         <div className={style.projectContainer}>
-            <div>
+            {/*<div>*/}
                 <div className={style.imgContainer} style={{backgroundImage: `url(${props.src})`}}>
                     <a
                         href={props.projectLink}
                         className={`${styleLink.link} ${style.link}`}
                     >Go to project</a>
                 </div>
-            </div>
+            {/*</div>*/}
             <h3>{props.title}</h3>
             <span className={style.projectDescription}>{props.description}</span>
         </div>
