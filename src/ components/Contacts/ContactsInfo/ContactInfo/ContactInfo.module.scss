@@ -1,0 +1,15 @@
+@import "../../../../common/styles/sass/variables";
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 15px;
+
+  .contactLink {
+    text-decoration: none;
+    color: $mainTextColor;
+    margin-left: 15px;
+  }
+
+}

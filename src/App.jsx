@@ -10,18 +10,10 @@ import todoImg from "./assets/images/flat-lay-notebook-with-list-desk.jpg";
 import socialMediaImg from "./assets/images/6976388_4575.jpg";
 import financeImg from "./assets/images/close-up-education-economy-objects.jpg";
 import botImg from "./assets/images/8252.jpg"
-import {FaInstagram} from "react-icons/fa";
-import {FaLinkedin} from "react-icons/fa";
-import {FaReact} from "react-icons/fa";
-import {FaSass} from "react-icons/fa";
-import {FaHtml5} from "react-icons/fa";
-import {FaGithub} from "react-icons/fa";
-import {FaServer} from "react-icons/fa";
-import {FaDocker} from "react-icons/fa";
-import {SiRedux} from "react-icons/si";
-import {SiTypescript} from "react-icons/si";
-import {SiStorybook} from "react-icons/si";
-import {SiMaterialui} from "react-icons/si";
+import {FaInstagram, FaLinkedin, FaReact, FaSass, FaHtml5, FaGithub, FaDocker, FaServer} from "react-icons/fa";
+import {FaEnvelope, FaPhoneAlt, FaTelegram} from "react-icons/fa";
+import {SiRedux, SiTypescript, SiStorybook, SiMaterialui} from "react-icons/si";
+
 
 function App() {
 
@@ -142,6 +134,27 @@ function App() {
 
     const contacts = [
         {
+            id: v1(), contactName: "Phone number",
+            contactDetails: "+79629114695",
+            imgComponent: <FaPhoneAlt size={"23"} color={"#59c378"}/>,
+            link: ""
+        },
+        {
+            id: v1(), contactName: "Email",
+            contactDetails: "anna.blackbird1@gmail.com",
+            imgComponent: <FaEnvelope size={"23"} color={"#59c378"}/>,
+            link: "https://github.com/AnyaGalkina"
+        },
+        {
+            id: v1(), contactName: "Telegram",
+            contactDetails: "@anna_blackbird",
+            imgComponent: <FaTelegram size={"23"} color={"#59c378"}/>,
+            link: "https://t.me/anna_blackbird"
+        },
+    ]
+
+    const socialMedia = [
+        {
             id: v1(), contactName: "Git",
             imgComponent: <FaGithub size={"30"}/>,
             // imgComponent: <GitHubIcon/>,
@@ -156,7 +169,7 @@ function App() {
         {
             id: v1(), contactName: "Instagram",
             imgComponent: <FaInstagram size={"30"}/>,
-            link: ""
+            link: "https://www.instagram.com/anyablackbird/"
         }
     ]
 
@@ -164,11 +177,11 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Main contacts={contacts}/>
+            <Main contacts={socialMedia}/>
             <Skills skills={skills}/>
             <Projects projects={projects}/>
-            <Contacts/>
-            <Footer contacts={contacts}/>
+            <Contacts contacts={contacts}/>
+            <Footer contacts={socialMedia}/>
         </div>
     );
 }
