@@ -3,7 +3,6 @@ import Header from "./ components/Header/Header";
 import Main from "./ components/Main/Main";
 import Skills from "./ components/Skills/Skills";
 import Projects from "./ components/Projects/Projects";
-import Contacts from "./ components/Contacts/Contacts";
 import {Footer} from "./ components/Footer/Footer";
 import {v1} from "uuid";
 import todoImg from "./assets/images/flat-lay-notebook-with-list-desk.jpg";
@@ -13,6 +12,7 @@ import botImg from "./assets/images/8252.jpg"
 import {FaInstagram, FaLinkedin, FaReact, FaSass, FaHtml5, FaGithub, FaDocker, FaServer} from "react-icons/fa";
 import {FaEnvelope, FaPhoneAlt, FaTelegram} from "react-icons/fa";
 import {SiRedux, SiTypescript, SiStorybook, SiMaterialui} from "react-icons/si";
+import Contacts from "./ components/Contacts/Contacts";
 
 
 function App() {
@@ -58,14 +58,14 @@ function App() {
             imgAlt: "CSS icon",
             skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
         },
-        {
-            skillId: v1(),
-            skillName: "HTML",
-            componentImg: <FaHtml5 size={"60"}/>,
-            imgSrc: "",
-            imgAlt: "HTML icon",
-            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
-        },
+        // {
+        //     skillId: v1(),
+        //     skillName: "HTML",
+        //     componentImg: <FaHtml5 size={"60"}/>,
+        //     imgSrc: "",
+        //     imgAlt: "HTML icon",
+        //     skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        // },
         {
             skillId: v1(),
             skillName: "Storybook",
@@ -90,14 +90,14 @@ function App() {
             imgAlt: "Git icon",
             skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
         },
-        {
-            skillId: v1(),
-            skillName: "Docker",
-            componentImg: <FaDocker size={"60"}/>,
-            imgSrc: "",
-            imgAlt: "Git icon",
-            skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
-        },
+        // {
+        //     skillId: v1(),
+        //     skillName: "Docker",
+        //     componentImg: <FaDocker size={"60"}/>,
+        //     imgSrc: "",
+        //     imgAlt: "Git icon",
+        //     skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
+        // },
     ];
 
 

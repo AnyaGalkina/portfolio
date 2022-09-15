@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./Skills.module.scss";
-import styleContainer from "../../common/styles/Container.module.scss";
 import Skill from "./Skill/Skill";
 import Title from "../Title/Title";
 
@@ -8,7 +7,7 @@ import Title from "../Title/Title";
 const Skills = ({skills}) => {
     return (
         <div className={style.skillsBlock} id={"skills"}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.skillsContainer}>
                 <Title title={"Technical skills"}/>
                 <div className={style.skills}>
                     {skills.map(s =>

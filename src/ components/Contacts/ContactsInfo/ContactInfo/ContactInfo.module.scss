@@ -1,9 +1,8 @@
-@import "../../../../common/styles/sass/variables";
+@import "../../../../common/styles/sass/variables", "../../../../common/styles/sass/mixins";
 
 .itemContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
+  @include flex(row, start, center, none);
+
   margin-top: 15px;
 
   .contactLink {

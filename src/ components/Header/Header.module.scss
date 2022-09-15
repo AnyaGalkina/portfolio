@@ -1,11 +1,9 @@
-@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/variables",  "../../common/styles/sass/mixins";
 
 .header {
   height: 80px;
   background-color: $bgSecondaryColor;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  @include flex(row, flex-end, center, none);
   padding: 0 100px;
   //position: fixed;
   //z-index: 2;

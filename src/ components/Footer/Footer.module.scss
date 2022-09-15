@@ -1,18 +1,15 @@
+@import "../../common/styles/sass/mixins";
+
 .footerBlock {
   height: 40vh;
 
   .footerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex(column, center, center, nowrap);
+    @include container();
 
     .iconContainer {
       width: 280px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      @include flex(row, space-between, center, wrap);
     }
 
     .copyright {

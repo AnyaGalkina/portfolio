@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./Main.module.scss";
-import styleContainer from "../../common/styles/Container.module.scss";
 import portfolioPhoto from "../../assets/images/gitPhoto.jpeg";
 import styleLink from "../../common/styles/Link.module.scss";
 
@@ -8,7 +7,6 @@ import styleLink from "../../common/styles/Link.module.scss";
 const Main = () => {
     return (
         <div className={style.mainBlock} id={"about"}>
-            <div className={styleContainer.container}>
                 <div className={style.photo}>
                     <img className={style.photo} src={portfolioPhoto} alt={"my portrait photography"}/>
                 </div>
@@ -19,7 +17,6 @@ const Main = () => {
                     <span>some other text Placeholder////</span>
                     <a className={styleLink.link}>Download CV</a>
                 </div>
-            </div>
         </div>
     );
 };

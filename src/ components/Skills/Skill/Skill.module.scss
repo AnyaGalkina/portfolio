@@ -4,9 +4,7 @@
   width: 310px;
   background-color: $bgSecondaryColor;
   min-height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex(column, center, center, nowrap);
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
@@ -16,10 +14,7 @@
   .icon {
     width: 60px;
     height: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex(column, center, center, nowrap);
     color: $primaryColor;
   }
 

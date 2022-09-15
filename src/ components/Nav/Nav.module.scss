@@ -1,9 +1,8 @@
-@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/variables',  "../../common/styles/sass/mixins";
 
 .nav {
   max-width: 310px;
-  display: flex;
-  justify-content: space-around;
+  @include flex(row, space-around, center, none);
   text-decoration: none;
   font-size: 18px;
 

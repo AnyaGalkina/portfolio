@@ -1,16 +1,16 @@
+@import "../../common/styles/sass/mixins";
+
 .projectBlock {
   min-height: 100vh;
 
   .projectContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    @include flex(column, flex-start, center, wrap);
+    @include container();
 
     .projects {
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      //align-items: flex-start;
+      @include flex(row, space-between, flex-start, wrap);
+
       @media screen and (max-width: 750px) {
         flex-direction: column;
         align-items: center;

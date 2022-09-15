@@ -1,13 +1,12 @@
 import React from 'react';
 import style from "./Footer.module.scss";
-import styleContainer from "../../common/styles/Container.module.scss";
 import Title from "../Title/Title";
 import SocialMediaLinks from "../SocialMediaLinks/SocialMediaLinks";
 
 export const Footer = ({socialMedia}) => {
     return (
         <div className={style.footerBlock}>
-            <div className={`${styleContainer.container} ${style.footerContainer}`}>
+            <div className={style.footerContainer}>
                 <Title title={"Follow me on"}/>
                 <div className={style.iconContainer}>
                     <div className={style.iconContainer}>
