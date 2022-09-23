@@ -1,4 +1,4 @@
-@import '../../common/styles/sass/variables',  "../../common/styles/sass/mixins";
+@import '../../common/styles/sass/variables', "../../common/styles/sass/mixins";
 
 .nav {
   max-width: 310px;
@@ -19,4 +19,8 @@
       margin: 0 3px;
     }
   }
+  //
+  //.active {
+  //  color: $primaryColor;
+  //}
 }

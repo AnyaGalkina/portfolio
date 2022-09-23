@@ -22,7 +22,7 @@
     font-weight: 700;
   }
 
-  h5 {
+  h4 {
     @include text($mainFontFamily, 600, 22px, 39px);
     color: #59c378;
     margin-top: 0;

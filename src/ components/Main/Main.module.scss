@@ -2,7 +2,7 @@
 
 .mainBlock {
   min-height: 100vh;
-  @include flex(row, space-between, center, wrap);
+  @include flex(row, space-around, center, wrap);
   @include container();
 
   .photo {
@@ -10,6 +10,9 @@
     height: 440px;
     @media screen and (max-width: 820px) {
       margin: 0 auto;
+    }
+    &:hover{
+
     }
     @media screen and (max-width: 575px) {
       height: 350px;
@@ -26,8 +29,16 @@
     .greeting {
       @include text($mainFontFamily, 700, 35px, 45px);
       text-transform: capitalize;
-      color: $secondaryColor;
+      color: $primaryColor;
     }
+
+    &:nth-child(2n){
+      @include text($mainFontFamily, 700, 35px, 45px);
+      text-transform: capitalize;
+      color: $mainTextColor;
+    }
+
+
 
     @media screen and (max-width: 820px) {
       margin: 20px auto;
