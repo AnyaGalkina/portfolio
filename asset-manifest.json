@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6ba52094.css",
+    "main.css": "/portfolio/static/css/main.fa2310a7.css",
     "main.js": "/portfolio/static/js/main.ed597c7f.js",
     "static/js/111.6b0d8be4.chunk.js": "/portfolio/static/js/111.6b0d8be4.chunk.js",
     "static/media/6976388_4575.jpg": "/portfolio/static/media/6976388_4575.2651617dcbb8b87d4819.jpg",
@@ -9,12 +9,12 @@
     "static/media/close-up-education-economy-objects.jpg": "/portfolio/static/media/close-up-education-economy-objects.086cd8a5cb72858ace9f.jpg",
     "static/media/gitPhoto.jpeg": "/portfolio/static/media/gitPhoto.dff8e5eae14779d9e86d.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.6ba52094.css.map": "/portfolio/static/css/main.6ba52094.css.map",
+    "main.fa2310a7.css.map": "/portfolio/static/css/main.fa2310a7.css.map",
     "main.ed597c7f.js.map": "/portfolio/static/js/main.ed597c7f.js.map",
     "111.6b0d8be4.chunk.js.map": "/portfolio/static/js/111.6b0d8be4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba52094.css",
+    "static/css/main.fa2310a7.css",
     "static/js/main.ed597c7f.js"
   ]
 }
