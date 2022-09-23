@@ -19,10 +19,15 @@
   }
 
   .description {
-    //@include text($secondaryFontFamily, 400, 14px, 1.8);
     @include text($secondaryFontFamily, 400, 16px, 24px);
     margin: 15px 0;
     padding-top: 20px;
     color: $secondaryTextColor;
+
+    p {
+      text-align: justify-all;
+      margin: 4px 0;
+    }
   }
+
 }
