@@ -21,8 +21,8 @@ const Project = ({imgSrc, title, main, description, technicalStack, gitHubLink, 
             <span className={style.projectDescription}><b>Web app link: </b>
                 <a href={projectLink} className={style.projectLink}>{projectLink}</a>
             </span>
-            <span className={style.projectDescription}><b>Mobile responsive: </b> {mobileResponsive ? <DoneIcon/> :
-                <ClearIcon/>}</span>
+            {/*<span className={style.projectDescription}><b>Mobile responsive: </b> {mobileResponsive ? <DoneIcon/> :*/}
+            {/*    <ClearIcon/>}</span>*/}
 
         </div>
     );
