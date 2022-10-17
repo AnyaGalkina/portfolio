@@ -2,15 +2,16 @@
 
 .header {
   height: 80px;
+  min-width: 100%;
   background-color: $bgSecondaryColor;
   @include flex(row, flex-end, center, none);
-  padding: 0 100px;
-  //position: fixed;
-  //z-index: 2;
-  //margin: 0;
+  position: fixed;
+  z-index: 3;
 
   .iconContainer {
     margin: 10px;
+    padding-right: 100px;
+
     @media screen and (max-width: 450px) {
       margin: 0;
     }
