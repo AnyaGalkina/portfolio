@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fa2310a7.css",
-    "main.js": "/portfolio/static/js/main.ed597c7f.js",
-    "static/js/111.6b0d8be4.chunk.js": "/portfolio/static/js/111.6b0d8be4.chunk.js",
+    "main.css": "/portfolio/static/css/main.b6814f1b.css",
+    "main.js": "/portfolio/static/js/main.d37c8b94.js",
+    "static/js/111.9a455c28.chunk.js": "/portfolio/static/js/111.9a455c28.chunk.js",
     "static/media/6976388_4575.jpg": "/portfolio/static/media/6976388_4575.2651617dcbb8b87d4819.jpg",
     "static/media/flat-lay-notebook-with-list-desk.jpg": "/portfolio/static/media/flat-lay-notebook-with-list-desk.2e4be7ecbb68e0c296c9.jpg",
+    "static/media/goals.png": "/portfolio/static/media/goals.ec915b186d2e97837af5.png",
     "static/media/8252.jpg": "/portfolio/static/media/8252.581243feeab1950f09f0.jpg",
     "static/media/close-up-education-economy-objects.jpg": "/portfolio/static/media/close-up-education-economy-objects.086cd8a5cb72858ace9f.jpg",
+    "static/media/finance.png": "/portfolio/static/media/finance.b7e811caa3a8f9095aef.png",
+    "static/media/cardsImgMain.png": "/portfolio/static/media/cardsImgMain.429fdba5729015dca0a8.png",
     "static/media/gitPhoto.jpeg": "/portfolio/static/media/gitPhoto.dff8e5eae14779d9e86d.jpeg",
+    "static/media/cardsImg.png": "/portfolio/static/media/cardsImg.72c52afc23429349eae6.png",
+    "static/media/todo2.png": "/portfolio/static/media/todo2.c792faf2eeb1d25143e1.png",
+    "static/media/cardsImg2.png": "/portfolio/static/media/cardsImg2.44988fef37c14fd8041e.png",
     "index.html": "/portfolio/index.html",
-    "main.fa2310a7.css.map": "/portfolio/static/css/main.fa2310a7.css.map",
-    "main.ed597c7f.js.map": "/portfolio/static/js/main.ed597c7f.js.map",
-    "111.6b0d8be4.chunk.js.map": "/portfolio/static/js/111.6b0d8be4.chunk.js.map"
+    "main.b6814f1b.css.map": "/portfolio/static/css/main.b6814f1b.css.map",
+    "main.d37c8b94.js.map": "/portfolio/static/js/main.d37c8b94.js.map",
+    "111.9a455c28.chunk.js.map": "/portfolio/static/js/111.9a455c28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa2310a7.css",
-    "static/js/main.ed597c7f.js"
+    "static/css/main.b6814f1b.css",
+    "static/js/main.d37c8b94.js"
   ]
 }
