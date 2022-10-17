@@ -1,7 +1,7 @@
 @import "../../../common/styles/sass/variables", "../../../common/styles/sass/mixins";
 
 .skill {
-  width: 310px;
+  width: 300px;
   background-color: $bgSecondaryColor;
   min-height: 100px;
   @include flex(column, center, center, nowrap);
@@ -9,7 +9,10 @@
   padding: 20px;
   box-sizing: border-box;
   margin: 2px;
-  //font-family: $secondaryFontFamily;
+
+  @media screen and (max-width: 550px) {
+    width: 350px;
+  }
 
   .icon {
     width: 60px;

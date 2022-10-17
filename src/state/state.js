@@ -27,14 +27,6 @@ export const state = {
     skills: [
         {
             skillId: v1(),
-            skillName: "Programming languages",
-            componentImg: <SiTypescript size={"60"}/>,
-            imgSrc: "",
-            imgAlt: "TS icon",
-            skillDescription: ["TypeScript and JavaScript"]
-        },
-        {
-            skillId: v1(),
             skillName: "REST API",
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
@@ -48,7 +40,7 @@ export const state = {
             imgSrc: "",
             imgAlt: "React icon",
             skillDescription:
-                ["Functional components , hocs and hooks:",
+                ["Functional components, hocs and hooks:",
                     "useEffect, useState, useCallback, useMemo, useRef, useReduce.",
                     "Class components"
                 ]
@@ -59,7 +51,19 @@ export const state = {
             componentImg: <SiRedux size={"60"}/>,
             imgSrc: "",
             imgAlt: "Redux icon",
-            skillDescription: ["Redux and Redux-toolkit", "TDD for Reducers", "Redux-Thunks and Redux-sagas", "React-redux"],
+            skillDescription: ["Redux and Redux-toolkit",
+                // "TDD for Reducers",
+                "Redux-thunks and Redux-sagas",
+                // "React-redux"
+            ],
+        },
+        {
+            skillId: v1(),
+            skillName: "Programming languages",
+            componentImg: <SiTypescript size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "TS icon",
+            skillDescription: ["TypeScript and JavaScript"]
         },
         {
             skillId: v1(),

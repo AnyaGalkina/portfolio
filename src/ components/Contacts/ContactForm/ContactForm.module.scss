@@ -1,13 +1,13 @@
 @import "../../../common/styles/sass/variables", "../../../common/styles/sass/mixins";
 
 .formContainer {
-  max-width: 300px;
-  width: 100%;
+  max-width: 350px;
+  width: 98%;
   @include flex(column, center, center, none);
 
   & input, & textarea {
     font-size: 16px;
-    width: 280px;
+    width: 98%;
     cursor: default;
     background-color: $bgSecondaryColor;
     color: grey;
@@ -21,6 +21,7 @@
   }
 
   .button {
+    //margin-left: 15px;
     height: 50px;
     width: 180px;
     border: $primaryColor;

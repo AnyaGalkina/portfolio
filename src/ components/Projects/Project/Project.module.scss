@@ -3,7 +3,7 @@
 .projectContainer {
   background-color: $bgSecondaryColor;
   max-width: 600px;
-  width: 100%;
+  width: 95%;
   @include flex(column, left, left, wrap);
   font-size: medium;
   margin: 10px;
@@ -33,18 +33,7 @@
 
 
   @media screen and (max-width: 760px) {
-    max-width: 300px;
+    //max-width: 350px;
+    max-width: 95%;
   }
 }
-
-/*.imgContainer:hover::before {*/
-/*    position: absolute;*/
-/*    content: "";*/
-/*    background-color: black;*/
-/*    opacity: 60%;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*}*/
-//

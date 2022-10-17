@@ -1,12 +1,6 @@
 import React from "react";
 import style from "./ContactInfo.module.scss";
 
-// type PropsType = {
-//     link: string;
-//     contactDetails: string;
-//     imgComponent: string
-// }
-
 const ContactInfo = ({link, contactDetails, imgComponent}) => {
     return (
         <div className={style.itemContainer}>
