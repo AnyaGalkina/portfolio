@@ -1,20 +1,29 @@
 import React from 'react';
 import style from "./Project.module.scss";
-import styleLink from "../../../common/styles/Link.module.scss";
+import DoneIcon from '@mui/icons-material/Done';
+import ClearIcon from '@mui/icons-material/Clear';
+import {ImgCarusel} from "./ImgCarousel/ImgCarousel";
 
 
-const Project = (props) => {
+const Project = ({imgSrc, title, main, description, technicalStack, gitHubLink, projectLink, mobileResponsive}) => {
 
     return (
         <div className={style.projectContainer}>
-                <div className={style.imgContainer} style={{backgroundImage: `url(${props.src})`}}>
-                    <a
-                        href={props.projectLink}
-                        className={`${styleLink.link} ${style.link}`}
-                    >Go to project</a>
-                </div>
-            <h3>{props.title}</h3>
-            <span className={style.projectDescription}>{props.description}</span>
+            <ImgCarusel images={imgSrc}/>
+            <h3 className={style.title}>{title}</h3>
+
+
+            <span className={style.projectDescription}><b>{main}</b> {description}</span>
+            <span className={style.projectDescription}><b>Technologies used: </b>{technicalStack}</span>
+            <span className={style.projectDescription}><b>Github link: </b>
+                <a href={gitHubLink} className={style.projectLink}>{gitHubLink}</a>
+            </span>
+            <span className={style.projectDescription}><b>Web app link: </b>
+                <a href={projectLink} className={style.projectLink}>{projectLink}</a>
+            </span>
+            <span className={style.projectDescription}><b>Mobile responsive: </b> {mobileResponsive ? <DoneIcon/> :
+                <ClearIcon/>}</span>
+
         </div>
     );
 };

@@ -1,0 +1,26 @@
+@import "../../../../common/styles/sass/variables", "../../../../common/styles/sass/mixins";
+
+.imgContainer {
+  height: 380px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  @include flex(column, center, center, wrap);
+  @include bgImage();
+  position: relative;
+
+  &:hover {
+    background-size: 120% 120%
+  }
+
+  .link {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 760px) {
+    max-width: 300px;
+    min-width: 280px;
+    height: 200px;
+  }
+}

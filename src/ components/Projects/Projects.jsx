@@ -17,8 +17,12 @@ const Projects = ({projects}) => {
                                     key={p.projectId}
                                     title={p.projectName}
                                     description={p.projectDescription}
-                                    src={p.imgSrc}
+                                    imgSrc={p.imgSrc}
                                     projectLink={p.projectLink}
+                                    main={p.main}
+                                    gitHubLink={p.gitHubLink}
+                                    technicalStack={p.technicalStack}
+                                    mobileResponsive={p.mobileResponsive}
                                 />
                             )
                         })}

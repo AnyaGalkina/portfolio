@@ -2,44 +2,37 @@
 
 .projectContainer {
   background-color: $bgSecondaryColor;
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
-  @include flex(column, center, center, wrap);
-
+  @include flex(column, left, left, wrap);
+  font-size: medium;
   margin: 10px;
 
-  .imgContainer {
-    height: 350px;
-    width: 100%;
-    align-items: center;
+  .title {
     text-align: center;
-    @include flex(column, center, center, wrap);
-    @include bgImage();
-    position: relative;
-
-    &:hover {
-      background-size: 120% 120%
-    }
-
-    .link {
-      position: relative;
-      z-index: 1;
-    }
-
-    @media screen and (max-width: 1310px) {
-      max-width: 300px;
-      min-width: 280px;
-      height: 200px;
-    }
   }
 
   .projectDescription {
-    padding: 20px;
+    padding: 5px 20px;
     box-sizing: border-box;
-    color: $secondaryTextColor
+    color: $secondaryTextColor;
   }
 
-  @media screen and (max-width: 1310px) {
+  .projectLink {
+    color: $mainTextColor;
+
+    &:hover {
+      color: $primaryColor;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 760px) {
+      font-size: 12px;
+    }
+  }
+
+
+  @media screen and (max-width: 760px) {
     max-width: 300px;
   }
 }
