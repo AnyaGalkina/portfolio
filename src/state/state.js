@@ -11,21 +11,27 @@ import {
     FaServer,
     FaTelegram
 } from "react-icons/fa";
-import todoImg from "../assets/images/flat-lay-notebook-with-list-desk.jpg";
-import socialMediaImg from "../assets/images/6976388_4575.jpg";
-import financeImg from "../assets/images/close-up-education-economy-objects.jpg";
-import botImg from "../assets/images/8252.jpg";
+import todoImg from "../assets/images/todolist/flat-lay-notebook-with-list-desk.jpg";
+import todoImg2 from "../assets/images/todolist/todo2.png";
+import socialMediaImg from "../assets/images/social-network/6976388_4575.jpg";
+import financeImg from "../assets/images/finance-tracker/close-up-education-economy-objects.jpg";
+import financeImg2 from "../assets/images/finance-tracker/finance.png";
+import financeImg3 from "../assets/images/finance-tracker/goals.png";
+import botImg from "../assets/images/tg-bot/8252.jpg";
+import cardsImg from "../assets/images/cards/cardsImgMain.png";
+import cardsImg2 from "../assets/images/cards/cardsImg.png";
+import cardsImg3 from "../assets/images/cards/cardsImg2.png";
 
 
 export const state = {
     skills: [
         {
             skillId: v1(),
-            skillName: "TypeSript",
+            skillName: "Programming languages",
             componentImg: <SiTypescript size={"60"}/>,
             imgSrc: "",
             imgAlt: "TS icon",
-            skillDescription: ["Programming languages: ", "Type script and Java script"]
+            skillDescription: ["TypeScript and JavaScript"]
         },
         {
             skillId: v1(),
@@ -33,7 +39,7 @@ export const state = {
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
             imgAlt: "JS icon",
-            skillDescription: ["Requests: get, post, put, delete", "Postman", "Axios/fetch", "Working with Backend documentation"]
+            skillDescription: ["Requests: get, post, put, delete", "Postman", "Axios/fetch", "Working with backend documentation"]
         },
         {
             skillId: v1(),
@@ -42,8 +48,11 @@ export const state = {
             imgSrc: "",
             imgAlt: "React icon",
             skillDescription:
-[                "some text the Internet tend to repeat first true generator on the Internet. It use"
-]        },
+                ["Functional components , hocs and hooks:",
+                    "useEffect, useState, useCallback, useMemo, useRef, useReduce.",
+                    "Class components"
+                ]
+        },
         {
             skillId: v1(),
             skillName: "Redux",
@@ -54,7 +63,7 @@ export const state = {
         },
         {
             skillId: v1(),
-            skillName: "SASS & CSS",
+            skillName: "SCSS & CSS",
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
@@ -90,7 +99,7 @@ export const state = {
             componentImg: <FaGithub size={"60"}/>,
             imgSrc: "",
             imgAlt: "Git icon",
-            skillDescription: ["Team experiance working with git: ", "create new repository, push commits, rebase, pull requests, mearge and fetch"]
+            skillDescription: ["Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
         },
         // {
         //     skillId: v1(),
@@ -105,30 +114,60 @@ export const state = {
         {
             projectId: v1(),
             projectName: "Todolist",
-            projectDescription: 'One of my specialties is taking aklcmasknmc',
-            imgSrc: todoImg,
+            main: "",
+            projectDescription: 'Todo List app with ability to login.',
+            imgSrc: [todoImg, todoImg2],
+            mobileResponsive: true,
+            technicalStack: "REST API, Typescript, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik.",
+            gitHubLink: "https://github.com/AnyaGalkina/cards",
             projectLink: "https://AnyaGalkina.github.io/todolist-app"
         },
         {
             projectId: v1(),
-            projectName: "Social Network",
-            projectDescription: 'One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics ',
-            imgSrc: socialMediaImg,
-            projectLink: ""
+            projectName: "Learning Cards",
+            main: "Team work project ",
+            projectDescription: 'Learning cards app with ability to create your own profile account(with sign up, login and password recovery if it\'s needed). Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs and learn cards created by other users.',
+            imgSrc: [cardsImg, cardsImg2, cardsImg3],
+            mobileResponsive: false,
+            technicalStack: "REST API, Typescript, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik.",
+            gitHubLink: "https://github.com/AnyaGalkina/cards",
+            projectLink: "https://anyagalkina.github.io/cards/"
         },
         {
             projectId: v1(),
             projectName: "Finance Tracker",
-            projectDescription: 'One of my specialties is taking aklcmasknmc One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics',
-            imgSrc: financeImg,
+            main: 'Developed from scratch ',
+            projectDescription: 'Budget app that let you track expenditures and income. It\'s also give an opportunity to set goals and gradually save money to achieve the targets.',
+            imgSrc: [financeImg, financeImg2, financeImg3],
+            mobileResponsive: true,
+            technicalStack: "Typescript, React, Redux, React-redux, React router dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
+            gitHubLink: "https://github.com/AnyaGalkina/finance_tracker",
             projectLink: "https://AnyaGalkina.github.io/finance_tracker"
+        },
+
+        {
+            projectId: v1(),
+            projectName: "Social Network",
+            main: 'App written with class components and refactored functional components with rect hooks.',
+            projectDescription: '',
+            imgSrc: [socialMediaImg],
+            mobileResponsive: false,
+            technicalStack: ""
+            // "REST API, Typescript, React, Redux, React-redux, React router dom v5, Axios, MUI, Formik."
+            ,
+            gitHubLink: "https://github.com/AnyaGalkina/samurai-way",
+            projectLink: ""
         },
         {
             projectId: v1(),
             projectName: "Telegram Bot",
-            projectDescription: 'One of my specialties is taking aklcmasknmc One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics',
-            imgSrc: botImg,
-            projectLink: ""
+            main: "",
+            projectDescription: 'Training adviser for pole sportsmen which help them to choose exercises for different levels.',
+            imgSrc: [botImg],
+            mobileResponsive: true,
+            technicalStack: "Javascript, Telegraf, Node-telegram-bot-api",
+            gitHubLink: "https://github.com/AnyaGalkina/Pole-tg-bot",
+            projectLink: "https://t.me/Pole_Training_Adviser_bot"
         },
     ],
     contacts: [
@@ -155,14 +194,12 @@ export const state = {
         {
             id: v1(), contactName: "Git",
             imgComponent: <FaGithub size={"25"}/>,
-            // imgComponent: <GitHubIcon/>,
             link: "https://github.com/AnyaGalkina"
         },
         {
             id: v1(), contactName: "LinkedIn",
             imgComponent: <FaLinkedin size={"25"}/>,
-            // imgComponent: <LinkedInIcon/>,
-            link: ""
+            link: "https://www.linkedin.com/in/anna-galkina-28016088/"
         },
         {
             id: v1(), contactName: "Instagram",
