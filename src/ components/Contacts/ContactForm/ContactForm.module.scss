@@ -3,7 +3,7 @@
 .formContainer {
   max-width: 350px;
   width: 98%;
-  @include flex(column, center, center, none);
+  @include flex(column, start, start, none);
 
   span{
     margin-bottom: 10px;

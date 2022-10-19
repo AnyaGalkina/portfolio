@@ -1,7 +1,7 @@
 @import "../../../common/styles/sass/variables", "../../../common/styles/sass/mixins";
 
 .skill {
-  width: 300px;
+  width: 280px;
   background-color: $bgSecondaryColor;
   min-height: 100px;
   @include flex(column, center, center, nowrap);

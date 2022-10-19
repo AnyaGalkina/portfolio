@@ -2,7 +2,7 @@
 
 .projectContainer {
   background-color: $bgSecondaryColor;
-  max-width: 600px;
+  max-width: 530px;
   width: 95%;
   @include flex(column, left, left, wrap);
   font-size: medium;
