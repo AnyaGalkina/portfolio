@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2fdd6d6d.css",
-    "main.js": "/portfolio/static/js/main.f3de4ae5.js",
+    "main.css": "/portfolio/static/css/main.53d59e9a.css",
+    "main.js": "/portfolio/static/js/main.f2f9c283.js",
     "static/js/111.9a455c28.chunk.js": "/portfolio/static/js/111.9a455c28.chunk.js",
     "static/media/6976388_4575.jpg": "/portfolio/static/media/6976388_4575.2651617dcbb8b87d4819.jpg",
     "static/media/flat-lay-notebook-with-list-desk.jpg": "/portfolio/static/media/flat-lay-notebook-with-list-desk.2e4be7ecbb68e0c296c9.jpg",
@@ -15,12 +15,12 @@
     "static/media/todo2.png": "/portfolio/static/media/todo2.c792faf2eeb1d25143e1.png",
     "static/media/cardsImg2.png": "/portfolio/static/media/cardsImg2.44988fef37c14fd8041e.png",
     "index.html": "/portfolio/index.html",
-    "main.2fdd6d6d.css.map": "/portfolio/static/css/main.2fdd6d6d.css.map",
-    "main.f3de4ae5.js.map": "/portfolio/static/js/main.f3de4ae5.js.map",
+    "main.53d59e9a.css.map": "/portfolio/static/css/main.53d59e9a.css.map",
+    "main.f2f9c283.js.map": "/portfolio/static/js/main.f2f9c283.js.map",
     "111.9a455c28.chunk.js.map": "/portfolio/static/js/111.9a455c28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fdd6d6d.css",
-    "static/js/main.f3de4ae5.js"
+    "static/css/main.53d59e9a.css",
+    "static/js/main.f2f9c283.js"
   ]
 }
