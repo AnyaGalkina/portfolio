@@ -3,7 +3,7 @@
 .itemContainer {
   @include flex(row, start, center, none);
 
-  margin-top: 15px;
+  margin-top: 25px;
 
   .contactLink {
     text-decoration: none;

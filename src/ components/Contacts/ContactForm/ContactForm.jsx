@@ -37,7 +37,7 @@ const ContactForm = () => {
 
     return (
         <div className={style.formContainer}>
-            <span>Send message to WatsApp now</span>
+            <span className={style.text}>Send message to WatsApp now</span>
             <form onSubmit={formik.handleSubmit} className={style.textarea}>
                 {/*<input type="text" placeholder={"Name"}  name={"name"}/>*/}
                 {/*<input type="text" placeholder={"Email"}  name={"email"}/>*/}
