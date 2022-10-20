@@ -122,7 +122,7 @@ export const state = {
             projectDescription: 'Todo List app with ability to login.',
             imgSrc: [todoImg, todoImg2],
             mobileResponsive: true,
-            technicalStack: "REST API, Typescript, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
             gitHubLink: "https://github.com/AnyaGalkina/cards",
             projectLink: "https://AnyaGalkina.github.io/todolist-app"
         },
@@ -130,10 +130,10 @@ export const state = {
             projectId: v1(),
             projectName: "Learning Cards",
             main: "Team work project ",
-            projectDescription: 'Learning cards app with ability to create your own profile account(with sign up, login and password recovery if it\'s needed). Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs and learn cards created by other users.',
+            projectDescription: 'Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.',
             imgSrc: [cardsImg, cardsImg2, cardsImg3],
             mobileResponsive: false,
-            technicalStack: "REST API, Typescript, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
             gitHubLink: "https://github.com/AnyaGalkina/cards",
             projectLink: "https://anyagalkina.github.io/cards/"
         },
@@ -144,7 +144,7 @@ export const state = {
             projectDescription: 'Budget app that let you track expenditures and income. It\'s also give an opportunity to set goals and gradually save money to achieve the targets.',
             imgSrc: [financeImg, financeImg2, financeImg3],
             mobileResponsive: true,
-            technicalStack: "Typescript, React, Redux, React-redux, React router dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
+            technicalStack: "TS, React, Redux, React-redux, React router dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
             gitHubLink: "https://github.com/AnyaGalkina/finance_tracker",
             projectLink: "https://AnyaGalkina.github.io/finance_tracker"
         },
