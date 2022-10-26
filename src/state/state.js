@@ -156,11 +156,9 @@ export const state = {
             projectDescription: '',
             imgSrc: [socialMediaImg],
             mobileResponsive: false,
-            technicalStack: ""
-            // "REST API, Typescript, React, Redux, React-redux, React router dom v5, Axios, MUI, Formik."
-            ,
+            technicalStack: "REST API, Axios, TS, React, Redux, React-redux, React router dom v5, Antd, Formik, Jest, Uuid .",
             gitHubLink: "https://github.com/AnyaGalkina/samurai-way",
-            projectLink: ""
+            projectLink: "https://anyagalkina.github.io/samurai-way"
         },
         {
             projectId: v1(),
