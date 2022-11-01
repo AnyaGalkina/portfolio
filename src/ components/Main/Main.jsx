@@ -6,6 +6,7 @@ import ReactTypingEffects from "react-typing-effect";
 import Tilt from 'react-tilt';
 
 const Main = () => {
+
     return (
         <div className={style.mainBlock} id={"about"}>
             <Tilt className="Tilt" options={{ max : 25 }} >
@@ -19,7 +20,8 @@ const Main = () => {
                     <h5><span>Frontend </span>
                     <ReactTypingEffects typingDelay={"0"} text={"Developer"}/>
                     </h5>
-                    <a className={styleLink.link}>Download CV</a>
+                    <a className={styleLink.link} href={portfolioPhoto} download="tested_file">Download CV</a>
+                    {/*<a className={styleLink.link}>Download CV</a>*/}
                 </div>
         </div>
     );

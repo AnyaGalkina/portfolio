@@ -9,16 +9,20 @@ import {
     FaReact,
     FaSass,
     FaServer,
+    FaDocker,
     FaTelegram
 } from "react-icons/fa";
 import todoImg from "../assets/images/todolist/flat-lay-notebook-with-list-desk.jpg";
 import todoImg2 from "../assets/images/todolist/todo2.png";
-import socialMediaImg from "../assets/images/social-network/6976388_4575.jpg";
+import socialMediaImg from "../assets/images/social-network/happy-friends-looking-social-media-smartphone.jpg";
+import socialMediaImg2 from "../assets/images/social-network/Screenshot-music.png";
+import socialMediaImg3 from "../assets/images/social-network/Screenshot-profile.png";
+import socialMediaImg4 from "../assets/images/social-network/Screenshot-news.png";
 import financeImg from "../assets/images/finance-tracker/close-up-education-economy-objects.jpg";
 import financeImg2 from "../assets/images/finance-tracker/finance.png";
 import financeImg3 from "../assets/images/finance-tracker/goals.png";
-import botImg from "../assets/images/tg-bot/8252.jpg";
-import cardsImg from "../assets/images/cards/cardsImgMain.png";
+import botImg from "../assets/images/tg-bot/robot.png";
+import cardsImg from "../assets/images/cards/cardsImgMain.jpg";
 import cardsImg2 from "../assets/images/cards/cardsImg.png";
 import cardsImg3 from "../assets/images/cards/cardsImg2.png";
 
@@ -51,19 +55,11 @@ export const state = {
             componentImg: <SiRedux size={"60"}/>,
             imgSrc: "",
             imgAlt: "Redux icon",
-            skillDescription: ["Redux and Redux-toolkit",
+            skillDescription: ["Redux", "Redux-toolkit",
                 // "TDD for Reducers",
                 "Redux-thunks and Redux-sagas",
                 // "React-redux"
             ],
-        },
-        {
-            skillId: v1(),
-            skillName: "Programming languages",
-            componentImg: <SiTypescript size={"60"}/>,
-            imgSrc: "",
-            imgAlt: "TS icon",
-            skillDescription: ["TypeScript and JavaScript"]
         },
         {
             skillId: v1(),
@@ -73,6 +69,7 @@ export const state = {
             imgAlt: "CSS icon",
             skillDescription: ["Scss: variables, mixins ", "CSS modules", "Flex and grids", "Mobile first approach"]
         },
+
         // {
         //     skillId: v1(),
         //     skillName: "HTML",
@@ -95,7 +92,16 @@ export const state = {
             componentImg: <SiMaterialui size={"60"}/>,
             imgSrc: "",
             imgAlt: "Storybook icon",
-            skillDescription: ["Working with Material Ui, ", "AntDesign ", "and other react libraries for css effects"]
+            skillDescription: ["Working with Material Ui, ", "AntDesign and other react libraries for css effects"]
+        },
+
+        {
+            skillId: v1(),
+            skillName: "Docker",
+            componentImg: <FaDocker size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Docker icon",
+            skillDescription: ["Build the app’s container image.", "Use docker hub"]
         },
         {
             skillId: v1(),
@@ -105,21 +111,21 @@ export const state = {
             imgAlt: "Git icon",
             skillDescription: ["Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
         },
-        // {
-        //     skillId: v1(),
-        //     skillName: "Docker",
-        //     componentImg: <FaDocker size={"60"}/>,
-        //     imgSrc: "",
-        //     imgAlt: "Git icon",
-        //     skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
-        // },
+        {
+            skillId: v1(),
+            skillName: "Programming languages",
+            componentImg: <SiTypescript size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "TS icon",
+            skillDescription: ["TypeScript and JavaScript"]
+        },
     ],
     projects: [
         {
             projectId: v1(),
             projectName: "Todolist",
             main: "",
-            projectDescription: 'Todo List app with ability to login.',
+            projectDescription: 'Todo List app with ability to login. Make lists with descriptions.',
             imgSrc: [todoImg, todoImg2],
             mobileResponsive: true,
             technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
@@ -152,9 +158,9 @@ export const state = {
         {
             projectId: v1(),
             projectName: "Social Network",
-            main: 'App written with class components and refactored functional components with rect hooks.',
-            projectDescription: '',
-            imgSrc: [socialMediaImg],
+            main: 'App written with class container components and refactored with functional components and hooks.',
+            projectDescription: 'Social Network for front-end developers: Login and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen music at music library. Read TechCrunch news and share them with one click',
+            imgSrc: [socialMediaImg, socialMediaImg2, socialMediaImg3, socialMediaImg4],
             mobileResponsive: false,
             technicalStack: "REST API, Axios, TS, React, Redux, React-redux, React router dom v5, Antd, Formik, Jest, Uuid .",
             gitHubLink: "https://github.com/AnyaGalkina/samurai-way",
