@@ -4,6 +4,9 @@ import portfolioPhoto from "../../assets/images/gitPhoto.jpeg";
 import styleLink from "../../common/styles/Link.module.scss";
 import ReactTypingEffects from "react-typing-effect";
 import Tilt from 'react-tilt';
+import pdf from "../../assets/pdf/cv-anna-galkina.pdf";
+
+
 
 const Main = () => {
 
@@ -20,7 +23,7 @@ const Main = () => {
                     <h5><span>Frontend </span>
                     <ReactTypingEffects typingDelay={"0"} text={"Developer"}/>
                     </h5>
-                    <a className={styleLink.link} href={portfolioPhoto} download="tested_file">Download CV</a>
+                    <a className={styleLink.link} href={pdf} download="cv_anna_galkina_front-end_dev">Download CV</a>
                     {/*<a className={styleLink.link}>Download CV</a>*/}
                 </div>
         </div>

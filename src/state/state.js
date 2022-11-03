@@ -35,7 +35,7 @@ export const state = {
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
             imgAlt: "JS icon",
-            skillDescription: ["Requests: get, post, put, delete", "Postman", "Axios/fetch", "Working with backend documentation"]
+            skillDescription: ["Requests: get, post, put, delete", "Postman", "Axios/fetch", "Swagger","Working with backend documentation"]
         },
         {
             skillId: v1(),
@@ -67,7 +67,7 @@ export const state = {
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
-            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Flex and grids", "Mobile first approach"]
+            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Responsive Web Design", "Mobile first approach"]
         },
 
         // {
@@ -91,7 +91,7 @@ export const state = {
             skillName: "UI libraries",
             componentImg: <SiMaterialui size={"60"}/>,
             imgSrc: "",
-            imgAlt: "Storybook icon",
+            imgAlt: "MU icon",
             skillDescription: ["Working with Material Ui, ", "AntDesign and other react libraries for css effects"]
         },
 
@@ -125,11 +125,11 @@ export const state = {
             projectId: v1(),
             projectName: "Todolist",
             main: "",
-            projectDescription: 'Todo List app with ability to login. Make lists with descriptions.',
+            projectDescription: 'Todo List app with ability to login, create different todo lists with tasks and its descriptions, edit content and track status.',
             imgSrc: [todoImg, todoImg2],
             mobileResponsive: true,
             technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
-            gitHubLink: "https://github.com/AnyaGalkina/cards",
+            gitHubLink: "https://github.com/AnyaGalkina/todolist-app",
             projectLink: "https://AnyaGalkina.github.io/todolist-app"
         },
         {
