@@ -6,6 +6,7 @@
   min-height: 100px;
   @include flex(column, center, center, nowrap);
   text-align: center;
+  align-self: stretch;
   padding: 20px;
   box-sizing: border-box;
   margin: 2px;
