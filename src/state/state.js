@@ -10,6 +10,7 @@ import {
     FaSass,
     FaServer,
     FaDocker,
+    FaJira,
     FaTelegram
 } from "react-icons/fa";
 import todoImg from "../assets/images/todolist/flat-lay-notebook-with-list-desk.jpg";
@@ -31,11 +32,19 @@ export const state = {
     skills: [
         {
             skillId: v1(),
-            skillName: "REST API",
+            skillName: "Programming languages",
+            componentImg: <SiTypescript size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "TS icon",
+            skillDescription: ["TypeScript", "JavaScript (including modern approaches async/await, ES6)"]
+        },
+        {
+            skillId: v1(),
+            skillName: "Client-Server",
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
             imgAlt: "JS icon",
-            skillDescription: ["Requests: get, post, put, delete", "Postman", "Axios/fetch", "Swagger","Working with backend documentation"]
+            skillDescription: ["REST API", "Axios/fetch", "WebSocket", "Swagger", ]
         },
         {
             skillId: v1(),
@@ -45,7 +54,7 @@ export const state = {
             imgAlt: "React icon",
             skillDescription:
                 ["Functional components, hocs and hooks:",
-                    "useEffect, useState, useCallback, useMemo, useRef, useReduce.",
+                    "useEffect, useState, memo, useRef, custom hooks",
                     "Class components"
                 ]
         },
@@ -56,9 +65,8 @@ export const state = {
             imgSrc: "",
             imgAlt: "Redux icon",
             skillDescription: ["Redux", "Redux-toolkit",
-                // "TDD for Reducers",
-                "Redux-thunks and Redux-sagas",
-                // "React-redux"
+                "Redux-thunks/Redux-sagas",
+                "React-redux"
             ],
         },
         {
@@ -67,9 +75,8 @@ export const state = {
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
-            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Responsive Web Design", "Mobile first approach"]
+            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
         },
-
         // {
         //     skillId: v1(),
         //     skillName: "HTML",
@@ -84,7 +91,7 @@ export const state = {
             componentImg: <SiStorybook size={"60"}/>,
             imgSrc: "",
             imgAlt: "Storybook icon",
-            skillDescription: ["Integration tests with storybook and snapshots", "Unit tests for reducers and thunks"]
+            skillDescription: ["Integration tests with storybook and snapshots", "Unit tests", "Postman"]
         },
         {
             skillId: v1(),
@@ -92,9 +99,16 @@ export const state = {
             componentImg: <SiMaterialui size={"60"}/>,
             imgSrc: "",
             imgAlt: "MU icon",
-            skillDescription: ["Working with Material Ui, ", "AntDesign and other react libraries for css effects"]
+            skillDescription: ["Working with Material Ui, ", "Ant Design and other react libraries for css effects"]
         },
-
+        {
+            skillId: v1(),
+            skillName: "Git",
+            componentImg: <FaGithub size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Git icon",
+            skillDescription: ["GitHub, GitHub Pages","Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
+        },
         {
             skillId: v1(),
             skillName: "Docker",
@@ -105,56 +119,47 @@ export const state = {
         },
         {
             skillId: v1(),
-            skillName: "Git",
-            componentImg: <FaGithub size={"60"}/>,
+            skillName: "Atlassian stack",
+            componentImg: <FaJira size={"60"}/>,
             imgSrc: "",
-            imgAlt: "Git icon",
-            skillDescription: ["Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
-        },
-        {
-            skillId: v1(),
-            skillName: "Programming languages",
-            componentImg: <SiTypescript size={"60"}/>,
-            imgSrc: "",
-            imgAlt: "TS icon",
-            skillDescription: ["TypeScript and JavaScript"]
+            imgAlt: "Jira icon",
+            skillDescription: ["Jira", "Confluence"]
         },
     ],
     projects: [
         {
             projectId: v1(),
-            projectName: "Todolist",
+            projectName: "To-Do list",
             main: "",
-            projectDescription: 'Todo List app with ability to login, create different todo lists with tasks and its descriptions, edit content and track status.',
+            projectDescription: 'To-Do List app with ability to login and create different To-Do lists with tasks and its descriptions, edit content and track status.',
             imgSrc: [todoImg, todoImg2],
             mobileResponsive: true,
-            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.",
             gitHubLink: "https://github.com/AnyaGalkina/todolist-app",
             projectLink: "https://AnyaGalkina.github.io/todolist-app"
         },
         {
             projectId: v1(),
             projectName: "Learning Cards",
-            main: "Team work project ",
+            main: "Team work project. ",
             projectDescription: 'Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.',
             imgSrc: [cardsImg, cardsImg2, cardsImg3],
             mobileResponsive: false,
-            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React router dom v6, Axios, MUI, Formik, Jest.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.",
             gitHubLink: "https://github.com/AnyaGalkina/cards",
             projectLink: "https://anyagalkina.github.io/cards/"
         },
         {
             projectId: v1(),
             projectName: "Finance Tracker",
-            main: 'Developed from scratch ',
+            main: 'Developed from scratch! ',
             projectDescription: 'Budget app that let you track expenditures and income. It\'s also give an opportunity to set goals and gradually save money to achieve the targets.',
             imgSrc: [financeImg, financeImg2, financeImg3],
             mobileResponsive: true,
-            technicalStack: "TS, React, Redux, React-redux, React router dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
+            technicalStack: "TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
             gitHubLink: "https://github.com/AnyaGalkina/finance_tracker",
             projectLink: "https://AnyaGalkina.github.io/finance_tracker"
         },
-
         {
             projectId: v1(),
             projectName: "Social Network",
@@ -162,7 +167,7 @@ export const state = {
             projectDescription: 'Social Network for front-end developers: Login and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen music at music library. Read TechCrunch news and share them with one click',
             imgSrc: [socialMediaImg, socialMediaImg2, socialMediaImg3, socialMediaImg4],
             mobileResponsive: false,
-            technicalStack: "REST API, Axios, TS, React, Redux, React-redux, React router dom v5, Antd, Formik, Jest, Uuid .",
+            technicalStack: "REST API, WebSocket, Axios, TS, React, Redux, React-redux, React-router-dom v5, Antd, Howler.js, Formik, Jest, Uuid .",
             gitHubLink: "https://github.com/AnyaGalkina/samurai-way",
             projectLink: "https://anyagalkina.github.io/samurai-way"
         },
@@ -181,15 +186,15 @@ export const state = {
     contacts: [
         {
             id: v1(), contactName: "Phone number",
-            contactDetails: "+79629114695",
+            contactDetails: "+7(962)911-46-95",
             imgComponent: <FaPhoneAlt size={"23"} color={"#59c378"}/>,
-            link: ""
+            link: "tel:+79629114695"
         },
         {
             id: v1(), contactName: "Email",
             contactDetails: "anna.blackbird1@gmail.com",
             imgComponent: <FaEnvelope size={"23"} color={"#59c378"}/>,
-            link: "https://github.com/AnyaGalkina"
+            link: "mailto:anna.blackbird1@gmail.com"
         },
         {
             id: v1(), contactName: "Telegram",
