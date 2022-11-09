@@ -1,6 +1,8 @@
 @import "../../common/styles/sass/mixins";
+
 .skillsBlock {
   min-height: 100vh;
+  padding-top: 80px;
 
   .skillsContainer {
     @include flex(column, flex-start, center, nowrap);

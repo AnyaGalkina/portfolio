@@ -24,7 +24,6 @@ const Main = () => {
                     <ReactTypingEffects typingDelay={"0"} text={"Developer"}/>
                     </h5>
                     <a className={styleLink.link} href={pdf} download="cv_anna_galkina_front-end_dev">Download CV</a>
-                    {/*<a className={styleLink.link}>Download CV</a>*/}
                 </div>
         </div>
     );
