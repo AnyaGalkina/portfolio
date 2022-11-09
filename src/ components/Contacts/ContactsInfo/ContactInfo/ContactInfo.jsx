@@ -5,7 +5,7 @@ const ContactInfo = ({link, contactDetails, imgComponent}) => {
     return (
         <div className={style.itemContainer}>
             {imgComponent}
-            <a className={style.contactLink} href={link}>  {contactDetails}</a>
+            <a className={style.contactLink} href={link}>{contactDetails}</a>
         </div>
     );
 };
