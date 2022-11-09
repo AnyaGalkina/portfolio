@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9d3dec82.css",
-    "main.js": "./static/js/main.08e1c063.js",
+    "main.css": "./static/css/main.bb373687.css",
+    "main.js": "./static/js/main.db79129d.js",
     "static/js/111.9a455c28.chunk.js": "./static/js/111.9a455c28.chunk.js",
     "static/media/goals.png": "./static/media/goals.1247e007ca0c3ad546fb.png",
     "static/media/cardsImg2.png": "./static/media/cardsImg2.13d083b6d8cec4d1ce84.png",
@@ -11,7 +11,7 @@
     "static/media/Screenshot-music.png": "./static/media/Screenshot-music.d689785893d389e2845a.png",
     "static/media/todo2.png": "./static/media/todo2.d9e1b5c56ea7999a4209.png",
     "static/media/cardsImgMain.jpg": "./static/media/cardsImgMain.17ab54db2bcade6fd27f.jpg",
-    "static/media/cv-anna-galkina.pdf": "./static/media/cv-anna-galkina.6467a1e474cd2784e699.pdf",
+    "static/media/cv-anna-galkina.pdf": "./static/media/cv-anna-galkina.dfe47ecb647f0db041aa.pdf",
     "static/media/robot.png": "./static/media/robot.7a01b29c349b518c8d28.png",
     "static/media/Screenshot-profile.png": "./static/media/Screenshot-profile.8fe17cb488e2991716cb.png",
     "static/media/Screenshot-news.png": "./static/media/Screenshot-news.ec9e56d79a9113842b96.png",
@@ -19,12 +19,12 @@
     "static/media/gitPhoto.jpeg": "./static/media/gitPhoto.dff8e5eae14779d9e86d.jpeg",
     "static/media/cardsImg.png": "./static/media/cardsImg.72c52afc23429349eae6.png",
     "index.html": "./index.html",
-    "main.9d3dec82.css.map": "./static/css/main.9d3dec82.css.map",
-    "main.08e1c063.js.map": "./static/js/main.08e1c063.js.map",
+    "main.bb373687.css.map": "./static/css/main.bb373687.css.map",
+    "main.db79129d.js.map": "./static/js/main.db79129d.js.map",
     "111.9a455c28.chunk.js.map": "./static/js/111.9a455c28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d3dec82.css",
-    "static/js/main.08e1c063.js"
+    "static/css/main.bb373687.css",
+    "static/js/main.db79129d.js"
   ]
 }
