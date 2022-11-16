@@ -26,6 +26,9 @@ import botImg from "../assets/images/tg-bot/robot.png";
 import cardsImg from "../assets/images/cards/cardsImgMain.jpg";
 import cardsImg2 from "../assets/images/cards/cardsImg.png";
 import cardsImg3 from "../assets/images/cards/cardsImg2.png";
+import cake1 from "../assets/images/shop/cake1.png";
+import shop1 from "../assets/images/shop/shop1.png";
+import shop2 from "../assets/images/shop/shop2.png";
 
 
 export const state = {
@@ -173,6 +176,17 @@ export const state = {
         },
         {
             projectId: v1(),
+            projectName: "Cakes on-line shop",
+            main: '',
+            projectDescription: 'Mobile Responsive App. On-line shop where you can order cakes and other sweets.',
+            imgSrc: [shop1, shop2, cake1],
+            mobileResponsive: true,
+            technicalStack: " TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Jest Snapshot, Storybook, ESlint.",
+            gitHubLink: "https://github.com/AnyaGalkina/shop",
+            projectLink: "https://anyagalkina.github.io/shop"
+        },
+        {
+            projectId: v1(),
             projectName: "Telegram Bot",
             main: "",
             projectDescription: 'Training adviser for pole sportsmen which help them to choose exercises for different levels.',
@@ -218,7 +232,12 @@ export const state = {
             id: v1(), contactName: "Instagram",
             imgComponent: <FaInstagram size={"25"}/>,
             link: "https://www.instagram.com/anyablackbird/"
-        }
+        },
+        // {
+        //     id: v1(), contactName: "CodeWars",
+        //     imgComponent: <FaInstagram size={"25"}/>,
+        //     link: "https://www.codewars.com/users/AnyaGalkina/"
+        // }
     ],
 }
 
