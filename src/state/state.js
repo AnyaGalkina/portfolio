@@ -68,13 +68,13 @@ export const state = {
             imgSrc: "",
             imgAlt: "Redux icon",
             skillDescription: ["Redux", "Redux-toolkit",
-                "Redux-thunks/Redux-sagas",
+                "Redux-thunks",
                 "React-redux"
             ],
         },
         {
             skillId: v1(),
-            skillName: "SCSS & CSS",
+            skillName: "SCSS, CSS3, HTML5",
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
@@ -94,7 +94,7 @@ export const state = {
             componentImg: <SiStorybook size={"60"}/>,
             imgSrc: "",
             imgAlt: "Storybook icon",
-            skillDescription: ["Integration tests with storybook and snapshots", "Unit tests", "Postman"]
+            skillDescription: ["Storybook and snapshots", "Unit tests", "Postman"]
         },
         {
             skillId: v1(),
@@ -102,7 +102,7 @@ export const state = {
             componentImg: <SiMaterialui size={"60"}/>,
             imgSrc: "",
             imgAlt: "MU icon",
-            skillDescription: ["Working with Material Ui, ", "Ant Design and other react libraries for css effects"]
+            skillDescription: ["Working with Material Ui, ", "Ant Design and other react libraries for css effects.", "Formik and Yup"]
         },
         {
             skillId: v1(),
@@ -134,7 +134,7 @@ export const state = {
             projectId: v1(),
             projectName: "To-Do list",
             main: "",
-            projectDescription: 'To-Do List app with ability to login and create different To-Do lists with tasks and its descriptions, edit content and track status.',
+            projectDescription: 'To-Do List is a mobile responsive web app with the ability to login and create different To-Do lists with tasks and their descriptions, edit content, and track tasks\' status.',
             imgSrc: [todoImg, todoImg2],
             mobileResponsive: true,
             technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.",
@@ -144,8 +144,8 @@ export const state = {
         {
             projectId: v1(),
             projectName: "Learning Cards",
-            main: "Team work project. ",
-            projectDescription: 'Learning cards app with ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.',
+            main: "A team work project. ",
+            projectDescription: 'Learning cards app with the ability to create your own profile account. Easy to create own packs with cards to learn in question/answer format and monitor your study progress. Use search and filters to find packs created by other users.',
             imgSrc: [cardsImg, cardsImg2, cardsImg3],
             mobileResponsive: false,
             technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, Axios, MUI, Formik, Jest.",
@@ -156,7 +156,7 @@ export const state = {
             projectId: v1(),
             projectName: "Finance Tracker",
             main: 'Developed from scratch! ',
-            projectDescription: 'Budget app that let you track expenditures and income. It\'s also give an opportunity to set goals and gradually save money to achieve the targets.',
+            projectDescription: 'Mobile responsive budget SPA that let you track expenditures and income with data saving in Local Storage. It also gives an opportunity to set goals and gradually save money to achieve the targets.',
             imgSrc: [financeImg, financeImg2, financeImg3],
             mobileResponsive: true,
             technicalStack: "TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
@@ -166,8 +166,8 @@ export const state = {
         {
             projectId: v1(),
             projectName: "Social Network",
-            main: 'App written with class container components and refactored with functional components and hooks.',
-            projectDescription: 'Social Network for front-end developers: Login and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen music at music library. Read TechCrunch news and share them with one click',
+            main: 'Mobile responsive SPA was developed with class container components and later refactored with functional components and hooks. ',
+            projectDescription: 'Social Network for front-end developers: Log in and update profile info. Follow real users. Easy to chat thanks to WebSocket connection. Listen to music at the music library. Read TechCrunch news and share them with one click.',
             imgSrc: [socialMediaImg, socialMediaImg2, socialMediaImg3, socialMediaImg4],
             mobileResponsive: false,
             technicalStack: "REST API, WebSocket, Axios, TS, React, Redux, React-redux, React-router-dom v5, Antd, Howler.js, Formik, Jest, Uuid .",
@@ -176,12 +176,12 @@ export const state = {
         },
         {
             projectId: v1(),
-            projectName: "Cakes on-line shop",
+            projectName: "Cakes online shop",
             main: '',
-            projectDescription: 'Mobile Responsive App. On-line shop where you can order cakes and other sweets.',
+            projectDescription: 'Mobile responsive App. Online shop where you can order cakes and other sweets.',
             imgSrc: [shop1, shop2, cake1],
             mobileResponsive: true,
-            technicalStack: " TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Jest Snapshot, Storybook, ESlint.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, ESlint.",
             gitHubLink: "https://github.com/AnyaGalkina/shop",
             projectLink: "https://anyagalkina.github.io/shop"
         },
