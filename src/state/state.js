@@ -67,8 +67,9 @@ export const state = {
             componentImg: <SiRedux size={"60"}/>,
             imgSrc: "",
             imgAlt: "Redux icon",
-            skillDescription: ["Redux", "Redux-toolkit",
+            skillDescription: ["Redux", "Redux Toolkit",
                 "Redux-thunks",
+                "Redux-Saga",
                 "React-redux"
             ],
         },
@@ -78,7 +79,7 @@ export const state = {
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
-            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
+            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Styled-components", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
         },
         // {
         //     skillId: v1(),

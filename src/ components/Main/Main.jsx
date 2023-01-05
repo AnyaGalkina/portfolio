@@ -4,7 +4,7 @@ import portfolioPhoto from "../../assets/images/gitPhoto.jpeg";
 import styleLink from "../../common/styles/Link.module.scss";
 import ReactTypingEffects from "react-typing-effect";
 import Tilt from 'react-tilt';
-import pdf from "../../assets/pdf/cv-anna-galkina.pdf";
+import pdf from "../../assets/pdf/Ann_ Galkina_Front-End_Developer_CV.pdf";
 
 
 

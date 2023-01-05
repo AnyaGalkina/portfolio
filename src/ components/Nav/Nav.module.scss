@@ -1,6 +1,6 @@
 @import '../../common/styles/sass/variables', "../../common/styles/sass/mixins";
 
-.nav {
+.navContainer {
   max-width: 310px;
   @include flex(row, space-around, center, none);
   text-decoration: none;
@@ -10,6 +10,7 @@
     text-decoration: none;
     color: $mainTextColor;
     margin-right: 10px;
+    cursor: pointer;
 
     &:hover {
       color: $primaryColor;
@@ -19,8 +20,4 @@
       margin: 0 3px;
     }
   }
-  //
-  //.active {
-  //  color: $primaryColor;
-  //}
 }
