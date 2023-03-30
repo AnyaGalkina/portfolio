@@ -11,7 +11,8 @@ import {
     FaServer,
     FaDocker,
     FaJira,
-    FaTelegram
+    FaTelegram,
+    FaNode
 } from "react-icons/fa";
 import todoImg from "../assets/images/todolist/flat-lay-notebook-with-list-desk.jpg";
 import todoImg2 from "../assets/images/todolist/todo2.png";
@@ -26,9 +27,18 @@ import botImg from "../assets/images/tg-bot/robot.png";
 import cardsImg from "../assets/images/cards/cardsImgMain.jpg";
 import cardsImg2 from "../assets/images/cards/cardsImg.png";
 import cardsImg3 from "../assets/images/cards/cardsImg2.png";
-import cake1 from "../assets/images/shop/cake1.png";
 import shop1 from "../assets/images/shop/shop1.png";
+import shop3 from "../assets/images/shop/shop3.png";
 import shop2 from "../assets/images/shop/shop2.png";
+import shop4 from "../assets/images/shop/shop4.png";
+import star1 from "../assets/images/starWars/star1.png";
+import star2 from "../assets/images/starWars/star2.png";
+import star3 from "../assets/images/starWars/star3.png";
+import star4 from "../assets/images/starWars/star4.png";
+import star5 from "../assets/images/starWars/star5.png";
+import calc1 from "../assets/images/calculator/calculator1.png";
+import calc2 from "../assets/images/calculator/calculator2.png";
+import calc3 from "../assets/images/calculator/calculator3.png";
 
 
 export const state = {
@@ -47,7 +57,7 @@ export const state = {
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
             imgAlt: "JS icon",
-            skillDescription: ["REST API", "Axios/fetch", "WebSocket", "Swagger", ]
+            skillDescription: ["REST API", "Axios/fetch", "WebSocket", "Swagger",]
         },
         {
             skillId: v1(),
@@ -81,14 +91,6 @@ export const state = {
             imgAlt: "CSS icon",
             skillDescription: ["Scss: variables, mixins ", "CSS modules", "Styled-components", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
         },
-        // {
-        //     skillId: v1(),
-        //     skillName: "HTML",
-        //     componentImg: <FaHtml5 size={"60"}/>,
-        //     imgSrc: "",
-        //     imgAlt: "HTML icon",
-        //     skillDescription: "some text the Internet tend to repeat first true generator on the Internet. It use"
-        // },
         {
             skillId: v1(),
             skillName: "Tests",
@@ -107,11 +109,19 @@ export const state = {
         },
         {
             skillId: v1(),
+            skillName: "Back-end(basic)",
+            componentImg: <FaNode size={"60"}/>,
+            imgSrc: "",
+            imgAlt: "Node",
+            skillDescription: ["Node.js", "Express", "Nodemailer", "MongoDB", 'validation, sort and pagination']
+        },
+        {
+            skillId: v1(),
             skillName: "Git",
             componentImg: <FaGithub size={"60"}/>,
             imgSrc: "",
             imgAlt: "Git icon",
-            skillDescription: ["GitHub, GitHub Pages","Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
+            skillDescription: ["GitHub, GitHub Pages", "Team work projects. ", "Create new repository, push commits, rebase, pull requests, merge and fetch"]
         },
         {
             skillId: v1(),
@@ -160,7 +170,7 @@ export const state = {
             projectDescription: 'Mobile responsive budget SPA that let you track expenditures and income with data saving in Local Storage. It also gives an opportunity to set goals and gradually save money to achieve the targets.',
             imgSrc: [financeImg, financeImg2, financeImg3],
             mobileResponsive: true,
-            technicalStack: "TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, MUI, React-Fontawesome, Jest, Uuid.",
+            technicalStack: "TS, React, Redux, React-redux, React-router-dom v6, Local Storage, React-Chartjs-2, Docker, Webpack 5, MUI, React-Fontawesome, Jest, Uuid.",
             gitHubLink: "https://github.com/AnyaGalkina/finance_tracker",
             projectLink: "https://AnyaGalkina.github.io/finance_tracker"
         },
@@ -179,12 +189,34 @@ export const state = {
             projectId: v1(),
             projectName: "Cakes online shop",
             main: '',
-            projectDescription: 'Mobile responsive App. Online shop where you can order cakes and other sweets.',
-            imgSrc: [shop1, shop2, cake1],
+            projectDescription: 'Mobile responsive App. Online shop where you can order cakes and other sweets. Sort products by price and search by name. After making an order you will make email with order confirmation',
+            imgSrc: [shop1, shop2, shop3, shop4],
             mobileResponsive: true,
-            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, ESlint.",
+            technicalStack: "REST API, TS, React, Redux-toolkit, Node.js, Express, MongoDB, React-redux, React-router-dom v6, MUI, Formik, Yup, Jest Snapshot, Storybook, Docker, ESlint.",
             gitHubLink: "https://github.com/AnyaGalkina/shop",
             projectLink: "https://anyagalkina.github.io/shop"
+        },
+        {
+            projectId: v1(),
+            projectName: "Star Wars",
+            main: '',
+            projectDescription: 'Mobile responsive App helps to find data about your favorite characters within the Star Wars universe.',
+            imgSrc: [star1, star2, star3, star4, star5],
+            mobileResponsive: true,
+            technicalStack: "REST API, TS, React, Redux-toolkit, React-redux, React-router-dom v6, CSS, Jest, Storybook.",
+            gitHubLink: "https://github.com/AnyaGalkina/star-wars",
+            projectLink: "https://anyagalkina.github.io/star-wars/"
+        },
+        {
+            projectId: v1(),
+            projectName: "Drag & Drop Calculator-constructor",
+            main: '',
+            projectDescription: 'Mobile responsive App. Online shop where you can order cakes and other sweets.',
+            imgSrc: [calc1, calc2, calc3],
+            mobileResponsive: true,
+            technicalStack: "TS, React, Redux-toolkit, React-redux, MUI, Jest, Figma, ESlint.",
+            gitHubLink: "https://github.com/AnyaGalkina/calculator-constructor",
+            projectLink: "https://anyagalkina.github.io/calculator-constructor/"
         },
         {
             projectId: v1(),

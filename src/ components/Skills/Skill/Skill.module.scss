@@ -4,7 +4,7 @@
   width: 280px;
   background-color: $bgSecondaryColor;
   min-height: 100px;
-  @include flex(column, center, center, nowrap);
+  @include flex(column, start, center, nowrap);
   text-align: center;
   align-self: stretch;
   padding: 20px;

@@ -14,6 +14,8 @@ const Project = ({imgSrc, title, main, description, technicalStack, gitHubLink, 
             <Divider className={style.divider}/>
             <span className={style.projectDescription}><b>{main}</b> {description}</span>
             <span className={style.projectDescription}><b>Technologies used: </b>{technicalStack}</span>
+
+            <Divider className={style.divider}/>
             <span className={style.projectDescription}><b>Github link: </b>
                 <a href={gitHubLink} className={style.projectLink}>{gitHubLink}</a>
             </span>

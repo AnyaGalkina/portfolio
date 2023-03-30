@@ -13,11 +13,11 @@ function App() {
     return (
         <div className="App">
             <Header socialMedia={state.socialMedia}/>
-                <Main />
-                <Skills skills={state.skills}/>
-                <Projects projects={state.projects}/>
-                <Contacts contacts={state.contacts}/>
-                <Footer socialMedia={state.socialMedia}/>
+            <Main/>
+            <Skills skills={state.skills}/>
+            <Projects projects={state.projects}/>
+            <Contacts contacts={state.contacts}/>
+            <Footer socialMedia={state.socialMedia}/>
         </div>
     );
 }
