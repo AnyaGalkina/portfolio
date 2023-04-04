@@ -211,7 +211,7 @@ export const state = {
             projectId: v1(),
             projectName: "Drag & Drop Calculator-constructor",
             main: '',
-            projectDescription: 'Mobile responsive App. Online shop where you can order cakes and other sweets.',
+            projectDescription: 'SPA with constructor and runtime mode. In constructor mode you can drag & drop parts of calculator to canvas in any order. In runtime mode you can use classic calculator.',
             imgSrc: [calc1, calc2, calc3],
             mobileResponsive: true,
             technicalStack: "TS, React, Redux-toolkit, React-redux, MUI, Jest, Figma, ESlint.",
