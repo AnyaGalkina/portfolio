@@ -57,7 +57,7 @@ export const state = {
             componentImg: <FaServer size={"60"}/>,
             imgSrc: "",
             imgAlt: "JS icon",
-            skillDescription: ["REST API", "Axios/fetch", "WebSocket", "Swagger",]
+            skillDescription: ["REST API", "Axios/fetch", "React Query", "WebSocket", "Swagger",]
         },
         {
             skillId: v1(),
@@ -89,7 +89,7 @@ export const state = {
             componentImg: <FaSass size={"60"}/>,
             imgSrc: "",
             imgAlt: "CSS icon",
-            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Styled-components", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
+            skillDescription: ["Scss: variables, mixins ", "CSS modules", "Styled-components", "Tailwindcss", "Responsive Web Design", "Mobile first approach", "Work with Figma"]
         },
         {
             skillId: v1(),
@@ -97,7 +97,7 @@ export const state = {
             componentImg: <SiStorybook size={"60"}/>,
             imgSrc: "",
             imgAlt: "Storybook icon",
-            skillDescription: ["Storybook and snapshots", "Unit tests", "Postman"]
+            skillDescription: ["Storybook and snapshots", "Unit tests", "Cypress", "Postman"]
         },
         {
             skillId: v1(),
