@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2d124b5f.css",
-    "main.js": "/portfolio/static/js/main.e6cd70d6.js",
+    "main.js": "/portfolio/static/js/main.eb60b30f.js",
     "static/js/111.9a455c28.chunk.js": "/portfolio/static/js/111.9a455c28.chunk.js",
     "static/media/goals.png": "/portfolio/static/media/goals.1247e007ca0c3ad546fb.png",
     "static/media/cardsImg2.png": "/portfolio/static/media/cardsImg2.13d083b6d8cec4d1ce84.png",
@@ -15,7 +15,7 @@
     "static/media/todo2.png": "/portfolio/static/media/todo2.d9e1b5c56ea7999a4209.png",
     "static/media/star4.png": "/portfolio/static/media/star4.627a430136c826ab44a5.png",
     "static/media/cardsImgMain.jpg": "/portfolio/static/media/cardsImgMain.17ab54db2bcade6fd27f.jpg",
-    "static/media/Ann_ Galkina_Front-End_Developer_CV.pdf": "/portfolio/static/media/Ann_ Galkina_Front-End_Developer_CV.9c16dde8958f741f906e.pdf",
+    "static/media/Anna_Galkina_Front-End.pdf": "/portfolio/static/media/Anna_Galkina_Front-End.708ddffb21d5b527286a.pdf",
     "static/media/robot.png": "/portfolio/static/media/robot.7a01b29c349b518c8d28.png",
     "static/media/star2.png": "/portfolio/static/media/star2.7e2228ef1ebb195c7522.png",
     "static/media/shop4.png": "/portfolio/static/media/shop4.3534351dee244340f00c.png",
@@ -32,11 +32,11 @@
     "static/media/calculator3.png": "/portfolio/static/media/calculator3.efe3b1a602004edce7b6.png",
     "index.html": "/portfolio/index.html",
     "main.2d124b5f.css.map": "/portfolio/static/css/main.2d124b5f.css.map",
-    "main.e6cd70d6.js.map": "/portfolio/static/js/main.e6cd70d6.js.map",
+    "main.eb60b30f.js.map": "/portfolio/static/js/main.eb60b30f.js.map",
     "111.9a455c28.chunk.js.map": "/portfolio/static/js/111.9a455c28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d124b5f.css",
-    "static/js/main.e6cd70d6.js"
+    "static/js/main.eb60b30f.js"
   ]
 }
